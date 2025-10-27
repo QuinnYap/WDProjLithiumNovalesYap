@@ -1,6 +1,6 @@
 # Li23 Novales & Li30 Yap: CS3 Project Proposal 
-## Teyvat's Seven:
-Genshin Impact and its World Building
+## Teyvat's Seven: _Genshin Impact and its World Building_
+-# Note: "Teyvat's Seven" is the main title of the webpage.
 
 **Logo:**
 
