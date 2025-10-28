@@ -4,7 +4,7 @@ Note: "Teyvat's Seven" is the main title of the webpage.
 
 **Logo:**
 
-![primogem](./Assets/MilestoneAssets/primo.png "The Website logo")
+![Logo](./Assets/MilestoneAssets/README.png "The Website logo")
 
 ## Description
 This website is a fan-made collection of pages discussing the lore about the seven nations of Teyvat, the main world in Genshin Impact. This includes important characters and events in the nation, the main element of the nation, a brief overview of the history, and the enemies you can find there as well. There are also fun quizzes you can answer about certain aspects of the lore or of a certain nation, just to tickle your brain, or for die-hard Genshin enthusiasts.
@@ -25,7 +25,7 @@ This webpage displays a menu that allows users to navigate to the different sub-
 
 _General Format for each Region Sub-Webpage:_ 
 
-Each region sub-webpage will contain a photo gallery of playable characters important to the nation, and a short description of their backstory and importance below. It will also contain a brief history of the region, and its state at the time that the traveller and Paimon arrive. Since each nation all have signature elements, a description of the main element and its uses will also be in the sub-webpage.
+Each region sub-webpage will contain a photo gallery of playable characters important to the nation, and a short description of their backstory, importance, and main weapon when you click on the picture. It will also contain a brief history of the region, and its state at the time that the traveller and Paimon arrive. Since each nation all have signature elements, a description of the main element and its uses will also be in the sub-webpage. The map of the area will be shown, and there will be waypoints that you can click that show a description of an important event that happened in the location of the waypoint. These click-to-reveal information bits will be implemented using Javascript.
 
 **Quizzes:** 
 
