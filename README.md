@@ -40,13 +40,19 @@ This webpage will contain links to the credible reference sources to be used for
 <img width="1920" height="1080" alt="Homepage" src="https://github.com/user-attachments/assets/00425298-125f-46a0-b544-89284f858f4f" />
 
 **About**
+<img width="1920" height="1080" alt="About" src="https://github.com/user-attachments/assets/21f19cfc-220d-4469-8189-bdcc5d23a6d6" />
 
 **Nations**
+<img width="1920" height="1080" alt="Nations" src="https://github.com/user-attachments/assets/ae3ba112-a810-4f96-89d1-f9481aa6b825" />
 
 _Nation Sub-Webpage_
+<img width="1920" height="1080" alt="SWP - Nations" src="https://github.com/user-attachments/assets/f16f7ef7-1bdb-4519-b4a4-19ccd0d375c1" />
 
 **Quizzes**
+<img width="1920" height="1080" alt="Quizzes" src="https://github.com/user-attachments/assets/168eebc8-6e6b-4ffd-a4b1-67b6af09dbed" />
 
 _Quiz Sub-Webpage_
+<img width="1920" height="1080" alt="SWP - Quizzes" src="https://github.com/user-attachments/assets/6ee83099-7796-42a4-b424-4253aae28c03" />
 
 **Sources**
+<img width="1920" height="1080" alt="Sources" src="https://github.com/user-attachments/assets/fb376ac0-deaa-4ede-8cb5-73e9eb95edfe" />
