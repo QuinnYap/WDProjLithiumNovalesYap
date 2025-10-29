@@ -13,7 +13,7 @@ This website is a fan-made collection of pages discussing the lore about the sev
 
 **Homepage:** 
 
-This webpage is the main page, which lets the user navigate to three other pages, _About_, _Nations_, and _Quizzes_. There will also be a _Theme_ toggle that has buttons you can press. These buttons represent different times of the day, and you can press them to change the theme of the website. Javascript will be used to implement this.
+This webpage is the main page, which lets the user navigate to three other pages, _About_, _Nations_, _Quizzes_, and _Sources_. There will also be a _Theme_ toggle that has buttons you can press. These buttons represent different times of the day, and you can press them to change the theme of the website. Javascript will be used to implement this.
 
 **About:** 
 
@@ -30,6 +30,10 @@ Each region sub-webpage will contain a photo gallery of playable characters impo
 **Quizzes:** 
 
 This webpage will contain links to sub-webpages containing quizzes on Genshin Impact trivia, Nation trivia, and character trivia. For the answer-check mechanic, Javascript will be used. The user will put their answers in a box, and when submitted, will be automatically checked for the correct answer. The tally of scores will also be counted via JS code.
+
+**Sources:** 
+
+This webpage will contain links to the credible reference sources to be used for collecting various genshin impact-related information.
 
 ## Wireframe
 **Homepage**
