@@ -49,7 +49,7 @@ _Nation Sub-Webpage_
 <img width="1920" height="1080" alt="SWP - Nations" src="https://github.com/user-attachments/assets/f16f7ef7-1bdb-4519-b4a4-19ccd0d375c1" />
 
 **Quizzes & Trivia**
-![Quizzes & Trivia Main Page](./Assets/MilestoneAssets/Comsci Wireframe.png "Main Page")
+![Quizzes & Trivia Main Page](./Assets/MilestoneAssets/ComsciWireframe.png "Main Page")
 
 _Trivia Sub-Webpage_
 <img width="1920" height="1080" alt="Quizzes" src="https://github.com/user-attachments/assets/168eebc8-6e6b-4ffd-a4b1-67b6af09dbed" />
