@@ -27,9 +27,16 @@ _General Format for each Region Sub-Webpage:_
 
 Each region sub-webpage will contain a photo gallery of playable characters important to the nation, and a short description of their backstory, importance, and main weapon when you click on the picture. It will also contain a brief history of the region, and its state at the time that the traveller and Paimon arrive. Since each nation all have signature elements, a description of the main element and its uses will also be in the sub-webpage. The map of the area will be shown, and there will be waypoints that you can click that show a description of an important event that happened in the location of the waypoint. These click-to-reveal information bits will be implemented using Javascript.
 
-**Quizzes:** 
+**Quizzes & Trivia:** 
 
-This webpage will contain links to sub-webpages containing quizzes on Genshin Impact trivia, Nation trivia, and character trivia. For the answer-check mechanic, Javascript will be used. The user will put their answers in a box, and when submitted, will be automatically checked for the correct answer. The tally of scores will also be counted via JS code.
+This webpage will contain links to sub-webpages containing quizzes and trivia about the following categories: Genshin Impact/Teyvat, Nation, and Characters. There will be quiz sub-webpages and trivia sub-webpages for each category as well.
+
+
+_Trivia Sub-webpages_
+These webpages will just give fun facts about the category that the user chooses from the main page.
+
+_Quiz Sub-webpages_
+For the answer-check mechanic, Javascript will be used. The user will put their answers in a box or select from options presented on the screen, and when submitted, will be automatically checked for the correct answer. The tally of scores will also be counted via JS code.
 
 **Sources:** 
 
