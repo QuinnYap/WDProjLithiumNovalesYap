@@ -13,7 +13,7 @@ This website is a fan-made collection of pages discussing the lore about the sev
 
 **Homepage:** 
 
-This webpage is the main page, which lets the user navigate to three other pages, _About_, _Nations_, _Quizzes_, and _Sources_. There will also be a _Theme_ toggle that has buttons you can press. These buttons represent different times of the day, and you can press them to change the theme of the website. Javascript will be used to implement this.
+This webpage is the main page, which lets the user navigate to four other pages, _About_, _Nations_, _Quizzes_, and _Sources_. There will also be a _Theme_ toggle that has buttons you can press. These buttons represent different times of the day, and you can press them to change the theme of the website. Javascript will be used to implement this.
 
 **About:** 
 
