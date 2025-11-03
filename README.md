@@ -4,7 +4,7 @@ Note: "Teyvat's Seven" is the main title of the webpage.
 
 **Logo:**
 
-![Logo](./Assets/MilestoneAssets/README.png "The Website logo")
+![Logo](./Assets/MilestoneAssets/tseven.png "The Website logo")
 
 ## Description
 This website is a fan-made collection of pages discussing the lore about the seven nations of Teyvat, the main world in Genshin Impact. This includes important characters and events in the nation, the main element of the nation, a brief overview of the history, and the enemies you can find there as well. There are also fun quizzes you can answer about certain aspects of the lore or of a certain nation, just to tickle your brain, or for die-hard Genshin enthusiasts.

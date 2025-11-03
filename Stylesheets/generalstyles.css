@@ -1,0 +1,27 @@
+@font-face{
+    font-family: Genshin;
+    src: url(../Assets/genshifont.ttf);
+}
+*{
+    font-family: Genshin, 'Times New Roman', serif;
+}
+header div{
+    text-align:center;
+}
+header div#heading{
+    float:right;
+}
+header img {
+    width: 100px;
+    height: 100px;
+}
+aside{
+    background-color:pink;
+    float:left;
+    width:200px;
+    height:100vh;
+    margin:-1px;
+}
+aside p{
+    font-size:large;
+}
