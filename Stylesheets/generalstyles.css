@@ -5,22 +5,45 @@
 *{
     font-family: Genshin, 'Times New Roman', serif;
 }
-header div{
+header{
     text-align:center;
 }
-header div#heading{
-    float:right;
-}
+div.header {
+    box-sizing:border-box;
+    background-color:aquamarine;
+    margin: 15px solid aquamarine;
+    padding:10px;
+    }
+        
+nav h1 {
+    text-align:center;
+    }
+        
+nav a {
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    width:85%;
+    height:fit-content;
+    box-sizing:border-box;
+    background-color:aquamarine;
+    margin: auto;
+    padding:50px;
+    }
+
 header img {
     width: 100px;
     height: 100px;
 }
+
 aside{
     background-color:pink;
     float:left;
     width:200px;
     height:100vh;
-    margin:-1px;
+    margin:1px;
 }
 aside p{
     font-size:large;
