@@ -4,7 +4,7 @@ Note: "Teyvat's Seven" is the main title of the webpage.
 
 **Logo:**
 
-![Logo](./Assets/MilestoneAssets/README.png "The Website logo")
+![Logo](./Assets/MilestoneAssets/tseven.png "The Website logo")
 
 ## Description
 This website is a fan-made collection of pages discussing the lore about the seven nations of Teyvat, the main world in Genshin Impact. This includes important characters and events in the nation, the main element of the nation, a brief overview of the history, and the enemies you can find there as well. There are also fun quizzes you can answer about certain aspects of the lore or of a certain nation, just to tickle your brain, or for die-hard Genshin enthusiasts.
@@ -27,9 +27,16 @@ _General Format for each Region Sub-Webpage:_
 
 Each region sub-webpage will contain a photo gallery of playable characters important to the nation, and a short description of their backstory, importance, and main weapon when you click on the picture. It will also contain a brief history of the region, and its state at the time that the traveller and Paimon arrive. Since each nation all have signature elements, a description of the main element and its uses will also be in the sub-webpage. The map of the area will be shown, and there will be waypoints that you can click that show a description of an important event that happened in the location of the waypoint. These click-to-reveal information bits will be implemented using Javascript.
 
-**Quizzes:** 
+**Quizzes & Trivia:** 
 
-This webpage will contain links to sub-webpages containing quizzes on Genshin Impact trivia, Nation trivia, and character trivia. For the answer-check mechanic, Javascript will be used. The user will put their answers in a box, and when submitted, will be automatically checked for the correct answer. The tally of scores will also be counted via JS code.
+This webpage will contain links to sub-webpages containing quizzes and trivia about the following categories: Genshin Impact/Teyvat, Nation, and Characters. There will be quiz sub-webpages and trivia sub-webpages for each category as well.
+
+
+_Trivia Sub-webpages_
+These webpages will just give fun facts about the category that the user chooses from the main page.
+
+_Quiz Sub-webpages_
+For the answer-check mechanic, Javascript will be used. The user will put their answers in a box or select from options presented on the screen, and when submitted, will be automatically checked for the correct answer. The tally of scores will also be counted via JS code.
 
 **Sources:** 
 
@@ -48,7 +55,10 @@ aa
 _Nation Sub-Webpage_
 <img width="1920" height="1080" alt="SWP - Nations" src="https://github.com/user-attachments/assets/f16f7ef7-1bdb-4519-b4a4-19ccd0d375c1" />
 
-**Quizzes**
+**Quizzes & Trivia**
+![Quizzes & Trivia Main Page](./Assets/MilestoneAssets/ComsciWireframe.png "Main Page")
+
+_Trivia Sub-Webpage_
 <img width="1920" height="1080" alt="Quizzes" src="https://github.com/user-attachments/assets/168eebc8-6e6b-4ffd-a4b1-67b6af09dbed" />
 
 _Quiz Sub-Webpage_
