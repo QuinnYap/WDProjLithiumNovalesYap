@@ -41,7 +41,7 @@ For the answer-check mechanic, Javascript will be used. The user will put their 
 **Sources:** 
 
 This webpage will contain links to the credible reference sources to be used for collecting various genshin impact-related information.
-aa
+
 ## Wireframe
 **Homepage**
 <img width="1920" height="1080" alt="Homepage" src="https://github.com/user-attachments/assets/00425298-125f-46a0-b544-89284f858f4f" />
