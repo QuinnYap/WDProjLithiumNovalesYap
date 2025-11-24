@@ -6,9 +6,9 @@
         <meta name = "description" content = "A fan-made collection of pages discussing the lore about the seven nations of Teyvat, the main world in Genshin Impact">
         <meta name = "keywords" content = "Project, Games, RPG, GenshinImpact">
         <meta name = "author" content="NOVALES, Emma T. & YAP, Quinn Mikayela C.">
-        <link rel = "icon" href = "./Assets/MilestoneAssets/tseven.png" type = "image/png">
+        <link rel = "icon" href = "../Assets/MilestoneAssets/tseven.png" type = "image/png">
         <title>Teyvat's Seven - Nations</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="../Stylesheets/generalstyles.css">
     </head>
     <style>
         h1 {    
@@ -19,17 +19,73 @@
             color:#000;
             text-align: center;
         }
-
+        article.nationCrd{
+            display:inline-block;
+            box-sizing:content-box;
+            max-width:160px;
+            min-height:400px;
+            background-color: #f44336;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            margin:10px;
+        }
     </style>
 
     <header>
-        <h1> Teyvat's Seven </h1>
-        <h2> Genshin Impact and its World-Building </h2>
+        <aside>
+            <nav>
+                <h1>Menu</h1>
+                <p><a href="./public/about.html">About</a></p>
+                <p><a href="./public/nations.html">Nations</a></p>
+                <p><a href="./public/quizzes&trivia.html">Quizzes and Trivia</a></p>
+                <p><a href="./public/sources.html">Sources</a></p>
+            </nav>
+        </aside>
+        <div class="header">
+            <img src="../../Assets/MilestoneAssets/tseven.png" style="float:right;">
+            <h1>Teyvat's Seven</h1>
+            <p>Genshin Impact and its Worldbuilding</p>
+        </div>
     </header>
 
     <body>
         <h2> Discover the 7 Nations! </h2>
-   
+        <article class="nationCrd" id="Mondstadt">
+            <a href="./nations/mondstadt.html">Mondstadt</a>
+            <p>A city of freedom that lies in the northeast of Teyvat.</p>
+        </article>
+
+        <article class="nationCrd" id="Liyue">
+            <a href="#">Liyue</a>
+            <p>A bountiful harbor that lies in the east of Teyvat.</p>
+        </article>
+
+        <article class="nationCrd" id="Inazuma">
+            <a href="#">Inazuma</a>
+            <p>An isolated archipelago far east of Teyvat.</p>
+        </article>
+
+        <article class="nationCrd" id="Sumeru">
+            <a href="#">Sumeru</a>
+            <p>The city of scholars located in the west-central part of Teyvat.</p>
+        </article>
+
+        <article class="nationCrd" id="Fontaine">
+            <a href="#">Fontaine</a>
+            <p>A terrestrial sea in the center of Teyvat.</p>
+        </article>
+
+        <article class="nationCrd" id="Natlan">
+            <a href="#">Natlan</a>
+            <p>The nation of oaths situated in the western regions of Teyvat.</p>
+        </article>
+
+        <article class="nationCrd" id="Snezhnaya">
+            <a href="#">Snezhnaya</a>
+            <p>The nation where the Fatui reside, and where Nod-Krai can be found at its southernmost part.</p>
+        </article>
     </body>
 
     <footer>
