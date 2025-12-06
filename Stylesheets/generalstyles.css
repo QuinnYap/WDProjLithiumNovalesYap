@@ -33,6 +33,15 @@ nav a {
     padding:50px;
     }
 
+nav.nations a{
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    margin:5px solid;
+    padding:1px;
+    width:85%;
+    text-align:left;
+}
+
 header img {
     width: 100px;
     height: 100px;
@@ -47,4 +56,26 @@ aside{
 }
 aside p{
     font-size:large;
+}
+.nationDisplays{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items:stretch;
+}
+.nationCrd{
+    box-sizing:content-box;
+    background-color: #f44336;
+    min-width:100px;
+    min-height:50vh;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    margin:10px;
+}
+.nationCrd a{
+    font-size:medium;
+}
+.nationCrd p{
+    font-size:small;
 }
