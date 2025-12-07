@@ -11,7 +11,6 @@ header{
 div.header {
     box-sizing:border-box;
     background-color:aquamarine;
-    margin: 15px solid aquamarine;
     padding:10px;
     }
         
@@ -46,13 +45,16 @@ header img {
     width: 100px;
     height: 100px;
 }
-
+.menu{
+    display:flex;
+    min-height:100vh;
+}
 aside{
     background-color:pink;
-    float:left;
     width:200px;
     height:100vh;
-    margin:1px;
+    padding:5px;
+    position:sticky;
 }
 aside p{
     font-size:large;
@@ -78,4 +80,7 @@ aside p{
 }
 .nationCrd p{
     font-size:small;
+}
+.container{
+    padding:20px;
 }
