@@ -6,14 +6,20 @@
     font-family: Genshin, 'Times New Roman', serif;
 }
 header{
-    text-align:center;
+    position:sticky;
+    top:0;
 }
 div.header {
     box-sizing:border-box;
     background-color:aquamarine;
+    margin: 10px solid aquamarine;
     padding:10px;
     }
-        
+
+div.header h1, div.header p{
+    text-align:right;
+}
+
 nav h1 {
     text-align:center;
     }
@@ -45,16 +51,15 @@ header img {
     width: 100px;
     height: 100px;
 }
-.menu{
-    display:flex;
-    min-height:100vh;
-}
+
 aside{
     background-color:pink;
+    float:left;
     width:200px;
-    height:100vh;
-    padding:5px;
+    min-height:100vh;
+    margin:1px;
     position:sticky;
+    top:0;
 }
 aside p{
     font-size:large;
@@ -66,9 +71,9 @@ aside p{
     align-items:stretch;
 }
 .nationCrd{
-    box-sizing:content-box;
+    box-sizing:border-box;
     background-color: #f44336;
-    min-width:100px;
+    width:14.25vw;
     min-height:50vh;
     color: white;
     padding: 14px 25px;
@@ -81,6 +86,6 @@ aside p{
 .nationCrd p{
     font-size:small;
 }
-.container{
-    padding:20px;
+p{
+    text-align:center;
 }
