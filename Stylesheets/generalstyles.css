@@ -51,7 +51,20 @@ header img {
     width: 100px;
     height: 100px;
 }
-
+footer{
+    background-color:aquamarine;
+    padding:10px;
+    bottom:0;
+    min-height:130px;
+    max-height:fit-content;
+    width:100%;
+}
+footer article.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
 aside{
     background-color:pink;
     float:left;
@@ -86,6 +99,20 @@ aside p{
 .nationCrd p{
     font-size:small;
 }
-p{
+body{
+    min-height:100vh;
+}
+div.contentindex{
+    width:50vw;
+    text-align:left;
+    min-height:50vh;
+}
+div.image{
+    float:right;
+}
+#copyright p{
     text-align:center;
+}
+#socials p{
+    text-align:right;
 }
