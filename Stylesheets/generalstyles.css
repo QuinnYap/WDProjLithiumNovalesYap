@@ -14,6 +14,7 @@ div.header {
     background-color:aquamarine;
     margin: 10px solid aquamarine;
     padding:10px;
+    width:100%;
     }
 
 div.header h1, div.header p{
@@ -58,12 +59,15 @@ footer{
     min-height:130px;
     max-height:fit-content;
     width:100%;
+    position:fixed;
+    bottom:0;
 }
 footer article.content{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    text-align:center;
 }
 aside{
     background-color:pink;
@@ -99,16 +103,38 @@ aside p{
 .nationCrd p{
     font-size:small;
 }
-body{
+    body{
+        min-height:100vh;
+        background-image:url(../Assets/Final\ Proj\ Assets/placeholderimg.png);
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment:scroll;
+    }
+article.main{
+    width:50%;
+    text-align:center;
+    padding:20px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    align-items:stretch;
+    justify-content:space-around;
+}
+article.subcontent{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+article.everything{
     min-height:100vh;
+    max-height:fit-content;
 }
-div.contentindex{
-    width:50vw;
-    text-align:left;
-    min-height:50vh;
-}
-div.image{
-    float:right;
+div.content{
+    background-color:aliceblue;
+    border-radius:45px;
+    padding:20px;
+    margin:10px;
+    max-height:fit-content
 }
 #copyright p{
     text-align:center;
