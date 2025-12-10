@@ -10,6 +10,26 @@
         <title>Teyvat's Seven - Quizzes & Trivia</title>
         <link rel="stylesheet" href="../Stylesheets/generalstyles.css">
     </head>
+
+       <header>
+        <div class="menu">
+        <aside>
+            <nav>
+                <h1>Menu</h1>
+                <p><a href="about.html">About</a></p>
+                <p><a href="nations.html">Nations</a></p>
+                <p><a href="../index.html">Home</a></p>
+                <p><a href="sources.html">Sources</a></p>
+            </nav>
+        </aside>
+        </div>  
+        <div class="header">
+            <img src="../../Assets/MilestoneAssets/tseven.png" style="float:right;">
+            <h1>Teyvat's Seven</h1>
+            <p>Genshin Impact and its Worldbuilding</p>
+        </div>     
+    </header>
+
 <body>
     <div class="quiz boxes">
         <h1>Genshin Impact Quiz</h1>
@@ -26,57 +46,28 @@
         </div>
     </div>
 </body>
+
 <script>
-const questions = [
-    {
-        question: "What is the region ruled by the Archon of Wisdom called?",
-        choices: ["Mondstadt", "Liyue", "Inazuma", "Sumeru"],
-        answer: "Sumeru"
-    },
-    {
-        question: "Which character is known as the 'God of Contracts'?",
-        choices: ["Zhongli", "Venti", "Raiden Shogun", "Nahida"],
-        answer: "Zhongli"
-    },
-    {
-        question: "What is the primary element associated with fire called?",
-        choices: ["Dendro", "Pyro", "Anemo", "Cryo"],
-        answer: "Pyro"
-    },
-];
 
-let currentQuestionIndex = 0;
-function displayQuestion() {
-    const questionElement = document.getElementById("question");
-    const options = document.getElementsByClassName("option");
-    const currentQuestion = questions[currentQuestionIndex];
-
-    questionElement.innerText = currentQuestion.question;
-    for (let i = 0; i < options.length; i++) {
-        options[i].innerText = currentQuestion.choices[i];
-        options[i].onclick = function() { checkAnswer(currentQuestion.choices[i]); };
-    }
-}
-function checkAnswer(selectedChoice) {
-    const resultElement = document.getElementById("result");
-    const currentQuestion = questions[currentQuestionIndex];
-    if (selectedChoice === currentQuestion.answer) {
-        resultElement.innerText = "Correct!";
-    } else {
-        resultElement.innerText = `Wrong! The correct answer is: ${currentQuestion.answer}`;
-    }
-}
-function nextQuestion() {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-        displayQuestion();
-        document.getElementById("result").innerText = "";
-    } else {
-        document.getElementById("question").innerText = "Quiz Completed!";
-        document.querySelector(".options").style.display = "none";
-        document.getElementById("next-btn").style.display = "none";
-    }
-}
-displayQuestion();
 </script>
 
+  <footer>
+    <article class="content">
+    <div>
+        <h3>E-mails:</h3>
+        <p>b2029qcyap@pshs.edu.ph</p>
+        <p>b2029etznovales@pshs.edu.ph</p>
+    </div>
+        <div id="copyright">
+        <p>&copy; 2025-2026 QM Yap & ET Novales</p>
+        <p>PSHS-MC</p>
+        <a href="sources.html">Sources</a>
+    </div>
+    <div id="socials">
+        <p><a href="https://genshin.hoyoverse.com/en/">Genshin Website</a></p>
+        <p><a href="https://x.com/GenshinImpact">Genshin X/Twitter</a></p>
+        <p><a href="https://www.facebook.com/Genshinimpact/">Genshin Facebook</a></p>
+    </div>
+    </article>
+  </footer>
+</html>

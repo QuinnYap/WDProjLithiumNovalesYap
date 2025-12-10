@@ -6,14 +6,21 @@
     font-family: Genshin, 'Times New Roman', serif;
 }
 header{
-    text-align:center;
+    position:sticky;
+    top:0;
 }
 div.header {
     box-sizing:border-box;
     background-color:aquamarine;
+    margin: 10px solid aquamarine;
     padding:10px;
+    width:100%;
     }
-        
+
+div.header h1, div.header p{
+    text-align:right;
+}
+
 nav h1 {
     text-align:center;
     }
@@ -29,7 +36,7 @@ nav a {
     box-sizing:border-box;
     background-color:aquamarine;
     margin: auto;
-    padding:50px;
+    padding:20px;
     }
 
 nav.nations a{
@@ -45,16 +52,31 @@ header img {
     width: 100px;
     height: 100px;
 }
-.menu{
-    display:flex;
-    min-height:100vh;
+footer{
+    background-color:aquamarine;
+    padding:10px;
+    bottom:0;
+    min-height:130px;
+    max-height:fit-content;
+    width:100%;
+    position:fixed;
+    bottom:0;
+}
+footer article.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align:center;
 }
 aside{
     background-color:pink;
+    float:left;
     width:200px;
-    height:100vh;
-    padding:5px;
+    min-height:100vh;
+    margin:1px;
     position:sticky;
+    top:0;
 }
 aside p{
     font-size:large;
@@ -66,9 +88,9 @@ aside p{
     align-items:stretch;
 }
 .nationCrd{
-    box-sizing:content-box;
+    box-sizing:border-box;
     background-color: #f44336;
-    min-width:100px;
+    width:14.25vw;
     min-height:50vh;
     color: white;
     padding: 14px 25px;
@@ -81,6 +103,42 @@ aside p{
 .nationCrd p{
     font-size:small;
 }
-.container{
+    body{
+        min-height:100vh;
+        background-image:url(../Assets/Final\ Proj\ Assets/placeholderimg.png);
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment:scroll;
+    }
+article.main{
+    width:50%;
+    text-align:center;
     padding:20px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    align-items:stretch;
+    justify-content:space-around;
+}
+article.subcontent{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+article.everything{
+    min-height:100vh;
+    max-height:fit-content;
+}
+div.content{
+    background-color:aliceblue;
+    border-radius:45px;
+    padding:20px;
+    margin:10px;
+    max-height:fit-content
+}
+#copyright p{
+    text-align:center;
+}
+#socials p{
+    text-align:right;
 }
