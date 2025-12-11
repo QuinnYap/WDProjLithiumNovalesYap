@@ -49,3 +49,5 @@ function nextQuestion() {
     }
 }
 displayQuestion();
+
+// im not too sure if this is working correctly help ;-;, i dont like the format so im changng it up
