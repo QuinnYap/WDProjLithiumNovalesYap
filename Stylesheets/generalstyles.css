@@ -108,9 +108,7 @@ aside p{
 }
     body{
         min-height:100vh;
-        background-size:cover;
-        background-repeat:no-repeat;
-        background-attachment:scroll;
+        background-color:gray;
     }
 article.main{
     width:50%;
