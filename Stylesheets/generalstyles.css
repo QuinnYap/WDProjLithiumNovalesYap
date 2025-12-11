@@ -6,8 +6,9 @@
     font-family: Genshin, 'Times New Roman', serif;
 }
 header{
-    position:relative;
+    position:sticky;
     top:0;
+    z-index:5;
 }
 div.header {
     box-sizing:border-box;
@@ -138,6 +139,7 @@ div.content{
     margin:10px;
     max-height:fit-content;
     opacity: 0.7;
+    z-index:1;
 }
 #copyright p{
     text-align:center;
