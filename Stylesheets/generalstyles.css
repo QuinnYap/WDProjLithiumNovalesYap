@@ -6,7 +6,7 @@
     font-family: Genshin, 'Times New Roman', serif;
 }
 header{
-    position:sticky;
+    position:relative;
     top:0;
 }
 div.header {
@@ -15,6 +15,7 @@ div.header {
     margin: 10px solid aquamarine;
     padding:10px;
     width:100%;
+    opacity: 1.0;
     }
 
 div.header h1, div.header p{
@@ -59,7 +60,7 @@ footer{
     min-height:130px;
     max-height:fit-content;
     width:100%;
-    position:fixed;
+    position:relative;
     bottom:0;
 }
 footer article.content{
@@ -73,7 +74,8 @@ aside{
     background-color:pink;
     float:left;
     width:200px;
-    min-height:100vh;
+    /*min-height:100vh;*/
+    height: 100vh;
     margin:1px;
     position:sticky;
     top:0;
@@ -92,7 +94,7 @@ aside p{
     background-color: #f44336;
     width:14.25vw;
     min-height:50vh;
-    color: white;
+    color: rgb(250, 250, 250);
     padding: 14px 25px;
     text-align: center;
     margin:10px;
@@ -130,11 +132,12 @@ article.everything{
     max-height:fit-content;
 }
 div.content{
-    background-color:aliceblue;
+    background-color:rgb(255, 255, 255);
     border-radius:45px;
     padding:20px;
     margin:10px;
-    max-height:fit-content
+    max-height:fit-content;
+    opacity: 0.7;
 }
 #copyright p{
     text-align:center;
@@ -142,3 +145,11 @@ div.content{
 #socials p{
     text-align:right;
 }
+.content-box {
+            width: 60vw;
+            padding: 30px;
+            margin: 10px;
+            border-radius: 15px;
+            background-color: rgba(255, 255, 255, 0.7);
+            opacity: 0.7;
+        }
