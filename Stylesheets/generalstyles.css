@@ -96,10 +96,14 @@ aside p{
     background-color: #57609B;
     width:14.25vw;
     min-height:50vh;
-    color: #57609B;
+    color: #D7E1FB;
     padding: 14px 25px;
     text-align: center;
     margin:10px;
+}
+.nationCrd p{
+    background-color:#131A3C;
+    border-radius: 10px;
 }
 a:hover{
     color:#BC8CF8;
