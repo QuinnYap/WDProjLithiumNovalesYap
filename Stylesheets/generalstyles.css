@@ -12,8 +12,8 @@ header{
 }
 div.header {
     box-sizing:border-box;
-    background-color:aquamarine;
-    margin: 10px solid aquamarine;
+    background-color:#9AD0F9;
+    margin: 10px solid #9AD0F9;
     padding:10px;
     width:100%;
     opacity: 1.0;
@@ -36,14 +36,14 @@ nav a {
     width:85%;
     height:fit-content;
     box-sizing:border-box;
-    background-color:aquamarine;
+    background-color:#9AD0F9;
     margin: auto;
     padding:20px;
     }
 
 nav.nations a, nav.quizzy a{
     box-sizing: border-box;
-    background-color: blanchedalmond;
+    background-color: #D7E1FB;
     margin:5px solid;
     padding:1px;
     width:85%;
@@ -55,7 +55,7 @@ header img {
     height: 100px;
 }
 footer{
-    background-color:aquamarine;
+    background-color:#9AD0F9;
     padding: 1px;
     bottom:0;
     min-height:130px;
@@ -73,7 +73,7 @@ footer article.content{
     text-align:center;
 }
 aside{
-    background-color:pink;
+    background-color:#BC8CF8;
     float:left;
     width:200px;
     /*min-height:100vh;*/
@@ -93,13 +93,22 @@ aside p{
 }
 .nationCrd{
     box-sizing:border-box;
-    background-color: #f44336;
+    background-color: #57609B;
     width:14.25vw;
     min-height:50vh;
-    color: rgb(250, 250, 250);
+    color: #d7e1fb;
     padding: 14px 25px;
     text-align: center;
     margin:10px;
+}
+a:hover{
+    color:#BC8CF8;
+}
+a:visited{
+    color:#e74c3c;
+}
+a{
+    color:red;
 }
 .nationCrd a{
     font-size:medium;
@@ -109,7 +118,10 @@ aside p{
 }
     body{
         min-height:100vh;
-        background-color:gray;
+        background-color:#d7e1fb;
+        background-image:url(../Assets/Final\ Proj\ Assets/genshinofficialwebsite.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 article.main{
     width:70%;
@@ -253,4 +265,30 @@ article.main h1#quizdesc{
     padding:20px;
     background-color: rgba(255, 255, 255, 0.7);
     margin:auto;
+}
+div.image p, div.img p{
+    background-color:#9AD0F9;
+    border-radius:10px;
+    padding:5px;
+}
+#Mondstadt{
+    background-image:url(../Assets/Final\ Proj\ Assets/Mondstadt.png);
+}
+#Liyue{
+    background-image:url(../Assets/Final\ Proj\ Assets/Liyue2.png);
+}
+#Inazuma{
+    background-image:url(../Assets/Final\ Proj\ Assets/Inazuma.png);
+}
+#Sumeru{
+    background-image:url(../Assets/Final\ Proj\ Assets/Sumeru.png);
+}
+#Fontaine{
+    background-image:url(../Assets/Final\ Proj\ Assets/Fontaine.png);
+}
+#Natlan{
+    background-image:url(../Assets/Final\ Proj\ Assets/Natlan.png);
+}
+#Snezhnaya{
+    background-image:url(../Assets/Final\ Proj\ Assets/NodKrai.png);
 }
