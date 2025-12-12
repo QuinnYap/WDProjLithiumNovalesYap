@@ -7,44 +7,44 @@
         <meta name = "keywords" content = "Project, Games, RPG, GenshinImpact">
         <meta name = "author" content="NOVALES, Emma T. & YAP, Quinn Mikayela C.">
         <link rel = "icon" href = "../Assets/MilestoneAssets/tseven.png" type = "image/png">
-        <title>Teyvat's Seven - Quizzes & Trivia</title>
-        <link rel="stylesheet" href="../Stylesheets/generalstyles.css">
+        <title>Teyvat's Seven - Quizzes - Characters</title>
+        <link rel="stylesheet" href="../../Stylesheets/generalstyles.css">
     </head>
 
-       <header>
-        <div class="menu">
-        <aside>
-            <nav>
-                <h1>Menu</h1>
-                <p><a href="about.html">About</a></p>
-                <p><a href="nations.html">Nations</a></p>
-                <p><a href="../index.html">Home</a></p>
-                <p><a href="sources.html">Sources</a></p>
-            </nav>
-        </aside>
-        </div>  
+       <header> 
         <div class="header">
             <img src="../../Assets/MilestoneAssets/tseven.png" style="float:right;">
             <h1>Teyvat's Seven</h1>
             <p>Genshin Impact and its Worldbuilding</p>
-        </div>     
+        </div>  
     </header>
+    <nav class="quizzy">
+        <p><a href="../quizzes&trivia.html">Back</a></p>
+    </nav>
 
 <body>
-    <article class="main" id="qt">
-        <h1 id="quizdesc">Quiz yourself on Genshin's World and Characters!</h1>
-        <article class="subcontent" id="quiztriv">
-            <div class="content" id="quiz">
-                <p><a href="./quizzes/teyvatquiz.html">Teyvat Quiz</a></p>
-                <p>Test your knowledge about Teyvat and what lies within its story!</p>
-            </div>
-            <div class="content" id="quiz">
-                <p><a href="./quizzes/charquiz.html">Character Quiz</a></p>
-                <p>See if you know the characters of Genshin well enough to perfect this quiz!</p>
-            </div>
-        </article>
-    </article>
+    <div class="quiz boxes">
+    <h1>Genshin Impact Character Quiz</h1>
+
+    <div id="quiz-container">
+        <div id="question" class="question-text">Question text</div>
+
+        <div class="options">
+            <button class="option" onclick="selectOption(0)">Option 1</button>
+            <button class="option" onclick="selectOption(1)">Option 2</button>
+            <button class="option" onclick="selectOption(2)">Option 3</button>
+            <button class="option" onclick="selectOption(3)">Option 4</button>
+        </div>
+
+        <div id="result" class="result"></div>
+        <button id="next-btn" class="next-btn" onclick="nextQuestion()" disabled>
+            Next Question
+        </button>
+    </div>
+</div>
 </body>
+
+<script src="../javascripts/charquiz.js"></script>
 
   <footer>
     <article class="content">

@@ -41,7 +41,7 @@ nav a {
     padding:20px;
     }
 
-nav.nations a{
+nav.nations a, nav.quizzy a{
     box-sizing: border-box;
     background-color: blanchedalmond;
     margin:5px solid;
@@ -61,8 +61,9 @@ footer{
     min-height:130px;
     max-height:fit-content;
     width:100%;
-    position:relative;
+    position:sticky;
     bottom:0;
+    z-index:11;
 }
 footer article.content{
     display: flex;
@@ -111,7 +112,7 @@ aside p{
         background-color:gray;
     }
 article.main{
-    width:50%;
+    width:70%;
     text-align:center;
     padding:20px;
     margin:auto;
@@ -135,6 +136,7 @@ div.content{
     padding:20px;
     margin:10px;
     max-height:fit-content;
+    max-width:fit-content;
     opacity: 0.7;
     z-index:1;
 }
@@ -147,12 +149,12 @@ div.content{
 .content-box {
             width: 60vw;
             padding: 30px;
-            margin: 10px;
+            margin: auto;
             border-radius: 15px;
             background-color: rgba(255, 255, 255, 0.7);
             opacity: 0.7;
 }
-.quiz {
+.quiz{
     max-width: 500px;
     margin: auto;
     padding: 20px;
@@ -224,4 +226,31 @@ div.content{
     background: #404040;
     opacity: 0.5;
     cursor: not-allowed;
+}
+#quiztriv{
+    display:flex;
+    flex-direction:row;
+    align-items:stretch;
+    justify-content: space-around;
+}
+#triv{
+    width:60%;
+    max-height:fit-content;
+}
+#quiz{
+    width:60%;
+    max-height:fit-content;
+}
+article.main#qt{
+    display:flex;
+    flex-direction:column;
+}
+article.main h1#quizdesc{
+    text-align:center;
+    width:65vw;
+    max-width:fit-content;
+    border-radius:10px;
+    padding:20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin:auto;
 }

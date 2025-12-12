@@ -7,32 +7,24 @@
         <meta name = "keywords" content = "Project, Games, RPG, GenshinImpact">
         <meta name = "author" content="NOVALES, Emma T. & YAP, Quinn Mikayela C.">
         <link rel = "icon" href = "../Assets/MilestoneAssets/tseven.png" type = "image/png">
-        <title>Teyvat's Seven - Quizzes & Trivia</title>
+        <title>Teyvat's Seven - Quizzes - Teyvat</title>
         <link rel="stylesheet" href="../../Stylesheets/generalstyles.css">
     </head>
 
-       <header>
-        <div class="menu">
-        <aside>
-            <nav>
-                <h1>Menu</h1>
-                <p><a href="about.html">About</a></p>
-                <p><a href="nations.html">Nations</a></p>
-                <p><a href="../index.html">Home</a></p>
-                <p><a href="sources.html">Sources</a></p>
-            </nav>
-        </aside>
-        </div>  
+       <header> 
         <div class="header">
             <img src="../../Assets/MilestoneAssets/tseven.png" style="float:right;">
             <h1>Teyvat's Seven</h1>
             <p>Genshin Impact and its Worldbuilding</p>
-        </div>     
+        </div>  
     </header>
+    <nav class="quizzy">
+        <p><a href="../quizzes&trivia.html">Back</a></p>
+    </nav>
 
 <body>
     <div class="quiz boxes">
-    <h1>Genshin Impact Quiz</h1>
+    <h1>Genshin Impact World Quiz</h1>
 
     <div id="quiz-container">
         <div id="question" class="question-text">Question text</div>
@@ -45,7 +37,6 @@
         </div>
 
         <div id="result" class="result"></div>
-
         <button id="next-btn" class="next-btn" onclick="nextQuestion()" disabled>
             Next Question
         </button>
@@ -53,91 +44,7 @@
 </div>
 </body>
 
-<script>
-    const questions = [
-    {
-        question: "What is the name of the continent where Genshin Impact takes place??",
-        options: ["Mondstadt", "Nod Krai", "Teyvat", "Europe"],
-        correct: 2
-    },
-    {
-        question: "How many basic elements are present in the world of Genshin?",
-        options: ["7", "5", "4", "3"],
-        correct: 0
-    },
-    {
-        question: "What is the goetic name for the current God of Eternity in Genshin Impact?",
-        options: ["Baal", "Beelzebul", "Buer", "Barbatos"],
-        correct: 1
-    },
-    {
-        question: "Who is the 6th of the Fatui Harbingers?",
-        options: ["Scaramouche","Arlecchino", "La Signora", "None of the above."],
-        correct: 0
-    },
-    {
-        question: "Which nation is considered the most technologically advanced out of all the nations of Teyvat?",
-        options: ["Sumeru", "Snezhnaya", "Fontaine", "Natlan"],
-        correct: 1
-    },
-    
-];
-
-let current = 0;
-let answered = false;
-
-function loadQuestion() {
-    const q = questions[current];
-
-    document.getElementById("question").textContent = q.question;
-
-    const optionButtons = document.querySelectorAll(".option");
-    optionButtons.forEach((button, i) => {
-        button.textContent = q.options[i];
-        button.classList.remove("correct", "wrong");
-        button.disabled = false;
-    });
-
-    document.getElementById("result").textContent = "";
-    document.getElementById("next-btn").disabled = true;
-    answered = false;
-}
-
-function selectOption(index) {
-    if (answered) return;
-    answered = true;
-
-    const q = questions[current];
-    const optionButtons = document.querySelectorAll(".option");
-
-    if (index === q.correct) {
-        optionButtons[index].classList.add("correct");
-        document.getElementById("result").textContent = "Correct!";
-    } else {
-        optionButtons[index].classList.add("wrong");
-        optionButtons[q.correct].classList.add("correct");
-        document.getElementById("result").textContent = "Wrong!";
-    }
-
-    optionButtons.forEach(btn => btn.disabled = true);
-    document.getElementById("next-btn").disabled = false;
-}
-
-function nextQuestion() {
-    current++;
-    if (current >= questions.length) {
-        document.getElementById("quiz-container").innerHTML = `
-            <h2>Your quiz is complete!</h2>
-            <p>Good job!</p>
-        `;
-    } else {
-        loadQuestion();
-    }
-}
-
-loadQuestion();
-
-</script>
+<script src="../javascripts/teyvatquiz.js"></script>
 
   <footer>
     <article class="content">
