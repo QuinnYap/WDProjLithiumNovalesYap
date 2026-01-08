@@ -25,7 +25,7 @@ This webpage displays a menu that allows users to navigate to the different sub-
 
 _General Format for each Region Sub-Webpage:_ 
 
-Each region sub-webpage will contain a photo gallery of playable characters important to the nation, and a short description of their backstory, importance, and main weapon when you click on the picture. It will also contain a brief history of the region, and its state at the time that the traveller and Paimon arrive. Since each nation all have signature elements, a description of the main element and its uses will also be in the sub-webpage. The map of the area will be shown, and there will be waypoints that you can click that show a description of an important event that happened in the location of the waypoint. These click-to-reveal information bits will be implemented using Javascript.
+Each region sub-webpage will contain a photo gallery of playable characters important to the nation, and a short description of their backstory, importance, and main weapon when you click on the picture. It will also contain a brief history of the region, and its state at the time that the traveller and Paimon arrive. Since each nation all have signature elements, a description of the main element and its uses will also be in the sub-webpage. The map of the area will be shown, and there will be waypoints that you can click that show a description of an important event that happened in the location of the waypoint. These click-to-reveal information bits will be implemented using Javascript. 
 
 **Quizzes & Trivia:** 
 
@@ -35,8 +35,11 @@ This webpage will contain links to sub-webpages containing quizzes and trivia ab
 _Trivia Sub-webpages_
 These webpages will just give fun facts about the category that the user chooses from the main page.
 
-_Quiz Sub-webpages_
-For the answer-check mechanic, Javascript will be used. The user will put their answers in a box or select from options presented on the screen, and when submitted, will be automatically checked for the correct answer. The tally of scores will also be counted via JS code.
+_Quiz Sub-webpages: Teyvat General Info & Character Info_
+For the answer-check mechanic, Javascript will be used. The user will put their answers in a box or select from options presented on the screen, and when submitted, will be automatically checked for the correct answer. The tally of scores will also be counted via JS code. 
+
+_Quiz Sub-webpages: Guess the Charcater_
+The Guess the Character Quiz, unlike the other two, will be implemented using an HTML form to collect the answer from the user. The user will be guided with visual and text clues that will help them guess the answer that they will then input into the answer box of the HTML form, and then press the Submit button chich would appear to be on the right side of the text answer button, that is also a part of our HTML form, implemented using <button>. The user input will then be identified by Javascript to automatically check for the correct answer. The tally of scores will also be gathered using JS code.
 
 **Sources:** 
 
