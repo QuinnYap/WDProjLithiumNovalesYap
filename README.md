@@ -12,7 +12,7 @@ This website is a fan-made collection of pages discussing the lore about the sev
 ## Website Outline and Wireframes
 
 **Homepage:** 
-This webpage is the main page, which lets the user navigate to four other pages, _About_, _Nations_, _Quizzes_, and _Sources_. There will also be a _Theme_ toggle that has buttons you can press. These buttons represent different times of the day, and you can press them to change the theme of the website. Javascript will be used to implement this.
+This webpage is the main page, which lets the user navigate to four other pages, _About_, _Nations_, _Quizzes_, and _Sources_.
 <img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/Homepage.png" />
 
 **About:** 
@@ -26,6 +26,18 @@ This webpage displays a menu that allows users to navigate to the different sub-
 _General Format for each Region Sub-Webpage:_ 
 Each region sub-webpage will contain a photo gallery of playable characters important to the nation, and a short description of their backstory, importance, and main weapon when you click on the picture. It will also contain a brief history of the region, and its state at the time that the traveller and Paimon arrive. Since each nation all have signature elements, a description of the main element and its uses will also be in the sub-webpage. The map of the area will be shown, and there will be waypoints that you can click that show a description of an important event that happened in the location of the waypoint. These click-to-reveal information bits will be implemented using Javascript. However, for the sub-webpage of the region Snezhnaya, there will be a hidden code within the information of its region highlighted in bold lettering. When pieced together, the bold letters will forn a secret password that the user can input into a box at the end of the page that will reveal extra hidden info on the lore of the harbingers of the nation.
 <img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Nations.png" />
+
+_The Fatui Secret Password Webpage:_
+This is a fun secret that the users can play around with and also serves as a kind of easter egg for Genshin Lore enthusiasts. This will include the implementation of HTML forms in the form of a password type input. The link to the "secret" webpage will only be located in the Snezhnaya Nation Sub-webpage. Certain words and letters will be highlighted in the main paragraph of Snezhnaya, and these words/letters will be combined in the order of their appearance to create the password.
+
+Where to Find:
+<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Nations (2).png" />
+For example, the password here is: "sitportaerostempu"
+
+Appearance:
+<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Nations (3).png" />
+Appearance when Password is Entered:
+<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Nations (4).png" />
 
 **Quizzes & Trivia:** 
 This webpage will contain links to sub-webpages containing quizzes and trivia about the following categories: Genshin Impact/Teyvat, Nation, and Characters. There will be quiz sub-webpages and trivia sub-webpages for each category as well.
@@ -44,12 +56,12 @@ _Fill in The Blanks Questions:_
 These webpages on either the Character or Teyvat quiz where the Fill in the Blanks questions are located in a separate webpage which can be accessed after the multiple choice questions are answered. [INSERT EXPLANATION HERE]
 
 Format:
-<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes(4).png" />
+<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes (4).png" />
 Appearance When Answered:
-<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes(5).png" />
+<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes (5).png" />
 
 _Quiz Sub-webpages: Guess the Charcater_
-The Guess the Character Quiz, unlike the other two, will be implemented using an HTML form to collect the answer from the user. The user will be guided with visual and text clues that will help them guess the answer that they will then input into the answer box of the HTML form, and then press the Submit button chich would appear to be on the right side of the text answer button, that is also a part of our implementation of HTML forms, implemented using (input type="text") and (<button>). The user input will then be identified by Javascript to automatically check for the correct answer. The tally of scores will also be gathered using JS code.
+The Guess the Character Quiz, unlike the other two, will be implemented using an HTML form to collect the answer from the user. The user will be guided with visual and text clues that will help them guess the answer that they will then input into the answer box of the HTML form, and then press the Submit button chich would appear to be on the right side of the text answer button, that is also a part of our implementation of HTML forms in the form of a textbox form. The user input will then be identified by Javascript to automatically check for the correct answer, so the information received from the forms will also be used in this same webpage. The tally of scores will also be gathered using JS code.
 Format:
 <img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes (7).png" />
 Appearance When Answered:
@@ -60,16 +72,3 @@ Congratulations Screen:
 **Sources:** 
 This webpage will contain links to the credible reference sources to be used for collecting various genshin impact-related information.
 <img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/Sources.png" />
-
-_The Fatui Secret Password Webpage:_
-
-Where to Find:
-<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Nations (2).png" />
-The link to the "secret" webpage will only be located in the Snezhnaya Nation Sub-webpage.
-
-Appearance:
-<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Nations (3).png" />
-Appearance when Password is Entered:
-<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Nations (4).png" />
-
-Type of Form: Password
