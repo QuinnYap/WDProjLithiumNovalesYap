@@ -29,48 +29,44 @@ Each region sub-webpage will contain a photo gallery of playable characters impo
 
 **Quizzes & Trivia:** 
 This webpage will contain links to sub-webpages containing quizzes and trivia about the following categories: Genshin Impact/Teyvat, Nation, and Characters. There will be quiz sub-webpages and trivia sub-webpages for each category as well.
-<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/Quizzes.png" />
+<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes.png" />
 
 
 _Trivia Sub-webpages_
 These webpages will just give fun facts about the category that the user chooses from the main page.
-<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/Quizzes (2).png" />
+<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes (2).png" />
 
 _Quiz Sub-webpages: Teyvat General Info & Character Info_
 For the answer-check mechanic, Javascript will be used. The user will put their answers in a box or select from options presented on the screen, and when submitted, will be automatically checked for the correct answer. The tally of scores will also be counted via JS code. After the user finishes answering the second quiz, the webpage will have a button near the lower right portion of the page that will ask if they would like to proceed to the next type of quiz, which is the Guess the Character Quiz. If the user chooses to press the button, they will be redirected to a new page with the next qiuz for them to answer. If the user chooses not to, nothing happens and they can exit the page at will using the Back button at the upper portion of the page. 
-<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/Quizzes (3).png" />
+<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes (3).png" />
+
+_Fill in The Blanks Questions:_
+These webpages on either the Character or Teyvat quiz where the Fill in the Blanks questions are located in a separate webpage which can be accessed after the multiple choice questions are answered. [INSERT EXPLANATION HERE]
+
+Format:
+<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes(4).png" />
+Appearance When Answered:
+<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes(5).png" />
 
 _Quiz Sub-webpages: Guess the Charcater_
-The Guess the Character Quiz, unlike the other two, will be implemented using an HTML form to collect the answer from the user. The user will be guided with visual and text clues that will help them guess the answer that they will then input into the answer box of the HTML form, and then press the Submit button chich would appear to be on the right side of the text answer button, that is also a part of our HTML form, implemented using (<button>). The user input will then be identified by Javascript to automatically check for the correct answer. The tally of scores will also be gathered using JS code.
+The Guess the Character Quiz, unlike the other two, will be implemented using an HTML form to collect the answer from the user. The user will be guided with visual and text clues that will help them guess the answer that they will then input into the answer box of the HTML form, and then press the Submit button chich would appear to be on the right side of the text answer button, that is also a part of our implementation of HTML forms, implemented using (input type="text") and (<button>). The user input will then be identified by Javascript to automatically check for the correct answer. The tally of scores will also be gathered using JS code.
 Format:
-<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/Quizzes (7).png" />
+<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes (7).png" />
 Appearance When Answered:
-<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/Quizzes (8).png" />
+<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes (8).png" />
 Congratulations Screen:
-<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/Quizzes (9).png" />
+<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes (9).png" />
 
 **Sources:** 
 This webpage will contain links to the credible reference sources to be used for collecting various genshin impact-related information.
 <img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/Sources.png" />
 
-_Fill in The Blanks Questions:_
-Format:
-<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/Quizzes (4).png" />
-Appearance When Answered:
-<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/Quizzes (5).png" />
-
-Type of Form: Text
-These webpages on either the Character or Teyvat quiz where the Fill in the Blanks questions are located in a separate webpage which can be accessed after the multiple choice questions are answered. [INSERT EXPLANATION HERE]
-
-_Guess That Character! Quiz:_
-
-
-Type of Form: Text
-
 _The Fatui Secret Password Webpage:_
+
 Where to Find:
 <img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Nations (2).png" />
 The link to the "secret" webpage will only be located in the Snezhnaya Nation Sub-webpage.
+
 Appearance:
 <img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Nations (3).png" />
 Appearance when Password is Entered:
