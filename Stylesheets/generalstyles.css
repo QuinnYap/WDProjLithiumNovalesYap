@@ -6,7 +6,7 @@
     font-family: Genshin, 'Times New Roman', serif;
 }
 header{
-    position:sticky;
+    position: sticky;
     top:0;
     z-index:5;
 }
@@ -64,6 +64,7 @@ footer{
     position:static;
     bottom:0;
     z-index:11;
+    position: fixed;
 }
 footer article.content{
     display: flex;
@@ -103,6 +104,7 @@ aside p{
 }
 .nationCrd p{
     background-color:#131A3C;
+    padding: 10px;
     border-radius: 10px;
 }
 a:hover{

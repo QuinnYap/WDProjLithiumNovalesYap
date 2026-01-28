@@ -55,7 +55,7 @@ For the answer-check mechanic, Javascript will be used. The user will put their 
 <img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes (3).png" />
 
 _Fill in The Blanks Questions:_
-These webpages on either the Character or Teyvat quiz where the Fill in the Blanks questions are located in a separate webpage which can be accessed after the multiple choice questions are answered. [INSERT EXPLANATION HERE]
+These webpages on either the Character or Teyvat quiz where the Fill in the Blanks questions are located in a separate webpage which can be accessed after the multiple choice questions are answered. The user will type in their own answer in the textbox under the question, and then press the Submit button which would appear to be on the lower right side of the text answer button, that is also a part of our implementation of HTML forms in the form of a textbox form. The user input will then be identified by Javascript to automatically check for the correct answer, so the information received from the forms will also be used in this same webpage. The tally of scores will also be gathered using JS code.
 
 Format:
 <img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes (4).png" />
@@ -64,7 +64,7 @@ Appearance When Answered:
 
 _Quiz Sub-webpages: Guess the Character_
 
-The Guess the Character Quiz, unlike the other two, will be implemented using an HTML form to collect the answer from the user. The user will be guided with visual and text clues that will help them guess the answer that they will then input into the answer box of the HTML form, and then press the Submit button chich would appear to be on the right side of the text answer button, that is also a part of our implementation of HTML forms in the form of a textbox form. The user input will then be identified by Javascript to automatically check for the correct answer, so the information received from the forms will also be used in this same webpage. The tally of scores will also be gathered using JS code.
+The Guess the Character Quiz will be implemented using an HTML form to collect the answer from the user. The user will be guided with visual and text clues that will help them guess the answer that they will then input into the answer box of the HTML form, and then press the Submit button which would appear to be on the right side of the text answer button, that is also a part of our implementation of HTML forms in the form of a textbox form. The user input will then be identified by Javascript to automatically check for the correct answer, so the information received from the forms will also be used in this same webpage. The tally of scores will also be gathered using JS code.
 Format:
 <img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes (7).png" />
 Appearance When Answered:
