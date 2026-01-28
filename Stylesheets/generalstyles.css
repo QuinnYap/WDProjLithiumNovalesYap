@@ -61,7 +61,7 @@ footer{
     min-height:130px;
     max-height:fit-content;
     width:100%;
-    position:sticky;
+    position:static;
     bottom:0;
     z-index:11;
 }
@@ -295,4 +295,15 @@ div.image p, div.img p{
 }
 #Snezhnaya{
     background-image:url(../Assets/Final\ Proj\ Assets/NodKrai.png);
+}
+a#secret{
+    color:red;
+    background-color:rgba(0, 0, 0, 0.5);
+    padding:10px;
+    margin:10px 50vw;
+    width:fit-content;
+    border-radius:40px;
+}
+b#password{
+    color:red;
 }
