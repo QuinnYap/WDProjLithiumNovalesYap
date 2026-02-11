@@ -54,6 +54,11 @@ header img {
     width: 100px;
     height: 100px;
 }
+
+body{
+    min-height:fit-content;
+}
+
 footer{
     background-color:#9AD0F9;
     padding: 1px;
@@ -61,10 +66,7 @@ footer{
     min-height:130px;
     max-height:fit-content;
     width:100%;
-    position:static;
-    bottom:0;
-    z-index:11;
-    position: fixed;
+    margin-top:40vh;
 }
 footer article.content{
     display: flex;

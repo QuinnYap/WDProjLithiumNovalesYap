@@ -52,6 +52,7 @@ const questions = [
 ];
 
 let currentQuestionIndex = 0;
+let score = 0;
 function displayQuestion() {
     const questionElement = document.getElementById("question");
     const options = document.getElementsByClassName("option");
@@ -68,20 +69,23 @@ function checkAnswer(selectedChoice) {
     const currentQuestion = questions[currentQuestionIndex];
     if (selectedChoice === currentQuestion.answer) {
         resultElement.innerText = "Correct!";
+        score += 1;
     } else {
         resultElement.innerText = `Wrong! The correct answer is: ${currentQuestion.answer}`;
     }
     document.getElementById("next-btn").disabled = false;
 }
+
 function nextQuestion() {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
         displayQuestion();
         document.getElementById("result").innerText = "";
     } else {
-        document.getElementById("question").innerText = "Quiz Completed!";
+        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}`;
         document.querySelector(".options").style.display = "none";
         document.getElementById("next-btn").style.display = "none";
+        document.getElementById("result").innerText = "";
     }
     document.getElementById("next-btn").disabled = true;
 }
