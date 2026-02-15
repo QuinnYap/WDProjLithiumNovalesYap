@@ -311,3 +311,20 @@ a#secret{
 b#password{
     color:red;
 }
+p a.trivlink{
+    background-color:#9AD0F9;
+    padding:10px;
+    text-align:center;
+    width:fit-content;
+    border-radius:10px;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+}
+p.filltheblanks a{
+    background-color:#9AD0F9;
+    padding:10px;
+    text-align:center;
+    width:fit-content;
+    border-radius:10px;
+}

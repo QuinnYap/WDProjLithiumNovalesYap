@@ -1,3 +1,4 @@
+const link = "https://genshin-impact-map.appsample.com/";
 const questions = [
     {
         question: "1. Which adeptus did Qiqi find passed out and whom she carried to the Bubu Pharmacy in a short official Genshin trailer?",
@@ -85,7 +86,7 @@ function nextQuestion() {
         document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}`;
         document.querySelector(".options").style.display = "none";
         document.getElementById("next-btn").style.display = "none";
-        document.getElementById("result").innerText = "";
+        document.getElementById("result").innerHTML = "<a href='fillchar.html'> Proceed to Fill in the Blanks Section </a>";
     }
     document.getElementById("next-btn").disabled = true;
 }
