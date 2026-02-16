@@ -28,7 +28,11 @@
 
     <div id="quiz-container">
         <div id="question" class="question-text">Question text</div>
-        
+        <form id="fill" method="get">
+            <label id="typetheans">Type in your answer in ALL CAPS.</label>
+            <p id="answerbox"><input type="text" required></p>
+        </form>
+        <button type="submit">Submit Answer</button>
         <div id="result" class="result"></div>
         <button id="next-btn" class="next-btn" onclick="nextQuestion()" disabled>
             Next Question

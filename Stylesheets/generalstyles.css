@@ -328,3 +328,9 @@ p.filltheblanks a{
     width:fit-content;
     border-radius:10px;
 }
+#typetheans{
+    color:#a3a3a3
+}
+#answerbox{
+    margin:auto;
+}
