@@ -41,6 +41,29 @@
     </nav>
 
     <body>
+        <div class="box">
+            <h2>Enter the Password.</h2>
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="checkPassword()">Submit</button>
+            <p id="message"></p>
+        </div>
+        <script>
+            function checkPassword() {
+                const password = document.getElementById('password').value;
+                const messageElement = document.getElementById('message');
+                
+                if (password === 'coldFatuiCryofear') {
+                    messageElement.textContent = 'Welcome to the Fatui.';
+                    messageElement.style.color = 'green';
+                    // Redirect to the content page after a short delay
+                    setTimeout(() => {
+                        window.location.href = 'thefatui_content.html'; // Change this to your content page URL
+                    }, 2000);
+                } else {
+                    messageElement.textContent = 'Incorrect password.';
+                    messageElement.style.color = 'red';
+                }
+            }
 
     </body>
 
