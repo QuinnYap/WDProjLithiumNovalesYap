@@ -334,3 +334,7 @@ p.filltheblanks a{
 #answerbox{
     margin:auto;
 }
+#guessimage{
+    display:flex;
+    justify-content: center;
+}
