@@ -1,54 +1,54 @@
 const link = "https://genshin-impact-map.appsample.com/";
 const questions = [
     {
-        question: "1. Which adeptus did Qiqi find passed out and whom she carried to the Bubu Pharmacy in a short official Genshin trailer?",
-        choices: ["Ganyu", "Xiao", "Xianyun", "Tartaglia"],
-        answer: "Xiao"
+        question: "1. What is the name of the continent where Genshin Impact takes place?",
+        choices: ["Mondstadt", "Nod Krai", "Teyvat", "Europe"],
+        answer: "Teyvat"
     },
     {
-        question: "2. Which character used to be a  shrine maiden at the Grand Narukami Shrine, moved to Liyue to study law and became classmates with Yanfei, then eventually went back to Inazuma?",
-        choices: ["Yumemizuki Mizuki", "Kujou Sara", "Kuki Shinobu", "Chiori"],
-        answer: "Kuki Shinobu"
+        question: "2. How many basic elements are present in the world of Genshin?",
+        choices: ["4", "5", "6", "7"],
+        answer: "7"
     },
     {
-        question: "3. Who is the Inazuman character who Alice, the author of the Teyvat Travel Guide, considered kidnapping because they reminded her of her daughter?",
-        choices: ["Kiara", "Thoma", "Sayu", "Yoimiya"],
-        answer: "Yoimiya"
+        question: "3. What is the goetic name of the current God of Eternity?",
+        choices: ["Baal", "Barbatos", "Beelzebub", "Buer"],
+        answer: "Beelzebub"
     },
     {
-        question: "4. Who was the lady who turned down the invite of Hexenzirkel, a coven of powerful witches?",
-        choices: ["Lisa", "Varka", "Mona", "Fischl"],
-        answer: "Lisa"
+        question: "4. Who is the 6th of the Fatui Harbingers?",
+        choices: ["Scaramouche", "Arlecchino", "La Signora", "None of the above."],
+        answer: "Scaramouche"
     },
     {
-        question: "5. What is Arataki Itto allergic to?",
-        choices: ["Mochi", "Cats", "Peanuts", "Beans"],
-        answer: "Beans"
+        question: "5. Which nation is considered the most technologically advanced out of all the nations of Teyvat?",
+        choices: ["Sumeru", "Snezhnaya", "Fontaine", "Natlan"],
+        answer: "Snezhnaya"
     },
     {
-        question: "6. Who is the dragon companion of the Natlan character, Kinich?",
-        choices: ["Ajaw", "Durin", "Ineffa", "Dvalin"],
-        answer: "Ajaw"
+        question: "6. Which element represents the God of Freedom?",
+        choices: ["Electro", "Dendro", "Electro", "Anemo"],
+        answer: "Anemo"
     },
     {
-        question: "7. Who is the consultant of the Wangsheng Funeral Parlor in Liyue?",
-        choices: ["Qiqi", "Shenhe", "Zhongli", "Hu Tao"],
+        question: "7. Who is known as the Warrior God?",
+        choices: ["Mavuika", "Raiden Shogun", "Tsaritsa", "Zhongli"],
         answer: "Zhongli"
     },
     {
-        question: "8. Which character's signature dish is macarons?",
-        choices: ["Furina", "Navia", "Sigewinne", "Charlotte"],
-        answer: "Navia"
+        question: "8. The burgeon elemental reaction is the result of which three elements?",
+        choices: ["‌Hydro, Pyro, Dendro", "‌Dendro, Anemo, Pyro", "Electro, Dendro, Hydro", "‌Geo, Hydro, Dendro"],
+        answer: "Hydro, Pyro, Dendro"
     },
     {
-        question: "9. Which of the following isn't one of the Traveller's titles?",
-        choices: ["Honorary Knight of Favonius", "Captain of the Swordfish III", "First Sage of Buer", "Fontaine's External Contracted Assistant Researcher"],
-        answer: "Captain of the Swordfish III"
+        question: "9. What is the general name of the dragons in Natlan?",
+        choices: ["Quenepa", "Spinel", "Saurian", "Dracolite"],
+        answer: "Saurian"
     },
     {
-        question: "10.  Which playable character said the line, '...ahahahaha. His laugh, not mine'?",
-        choices: ["Bennet", "Varka", "Mika", "Kaeya"],
-        answer: "Mika"
+        question: "10. What is the name of the creatures of Sumeru that only children, pure hearted adults, and those who believe in dreams can see?",
+        choices: ["Adepti", "Vishaps", "Aranara", "Setekh Wenut"],
+        answer: "Aranara"
     },
 ];
 
