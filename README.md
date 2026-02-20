@@ -39,15 +39,10 @@ Appearance:
 Appearance when Password is Entered:
 <img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Nations (4).png" />
 
-**Quizzes & Trivia:** 
-This webpage will contain links to sub-webpages containing quizzes and trivia about the following categories: Genshin Impact/Teyvat, Nation, and Characters. There will be quiz sub-webpages and trivia sub-webpages for each category as well.
+**Quizzes** 
+
+This webpage will contain links to sub-webpages containing quizzes about the following categories: Genshin Impact/Teyvat, Nation, and Characters. There will be quiz sub-webpages for each category as well.
 <img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes.png" />
-
-
-_Trivia Sub-webpages_
-
-These webpages will just give fun facts about the category that the user chooses from the main page.
-<img width="1920" height="1080" alt="Homepage" src="./Assets/Comsci Wireframe/SWP - Quizzes (2).png" />
 
 _Quiz Sub-webpages: Teyvat General Info & Character Info_
 

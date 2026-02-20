@@ -73,11 +73,10 @@ function nextQuestion() {
         displayQuestion();
         document.getElementById("result").innerText = "";
     } else {
-        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}`;
+        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/3`;
         document.querySelector(".options").style.display = "none";
         document.getElementById("next-btn").style.display = "none";
         document.getElementById("typeintheans").style.display = "none";
-        document.getElementById("result").innerHTML = "<a href='fillchar.html'> Proceed to Fill in the Blanks Section </a>";
     }
     document.getElementById("next-btn").disabled = true;
 }

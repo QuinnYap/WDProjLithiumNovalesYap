@@ -1,29 +1,29 @@
 const placeholder = '<img src="../../Assets/Final Proj Assets/placeholderimg.png" class="guessthem">';
 const characters = [
     {
-        imageurl: placeholder,
-        choices: ["Ganyu", "Xiao", "Xianyun", "Tartaglia"],
-        answer: "Xiao"
+        imageurl: '<img src="../../Assets/Final Proj Assets/Chiori_Card.png" class="guessthem">',
+        choices: ["Ganyu", "Xiao", "Chiori", "Tartaglia"],
+        answer: "Chiori"
     },
     {
-        imageurl: placeholder,
-        choices: ["Yumemizuki Mizuki", "Kujou Sara", "Kuki Shinobu", "Chiori"],
-        answer: "Kuki Shinobu"
+        imageurl: '<img src="../../Assets/Final Proj Assets/Gaming_Card.png" class="guessthem">',
+        choices: ["Yumemizuki Mizuki", "Kujou Sara", "Kuki Shinobu", "Gaming"],
+        answer: "Gaming"
     },
     {
-        imageurl: placeholder,
-        choices: ["Kiara", "Thoma", "Sayu", "Yoimiya"],
-        answer: "Yoimiya"
+        imageurl: '<img src="../../Assets/Final Proj Assets/Rosaria_Card.png" class="guessthem">',
+        choices: ["Rosaria", "Thoma", "Sayu", "Yoimiya"],
+        answer: "Rosaria"
     },
     {
-        imageurl: placeholder,
-        choices: ["Lisa", "Varka", "Mona", "Fischl"],
-        answer: "Lisa"
+        imageurl: '<img src="../../Assets/Final Proj Assets/Tighnari_Card.png" class="guessthem">',
+        choices: ["Lisa", "Tighnari", "Mona", "Fischl"],
+        answer: "Tighnari"
     },
     {
-        imageurl: placeholder,
-        choices: ["Mochi", "Cats", "Peanuts", "Beans"],
-        answer: "Beans"
+        imageurl: '<img src="../../Assets/Final Proj Assets/Razor_Card.png" class="guessthem">',
+        choices: ["Cyno", "Razor", "Nilou", "Xiangling"],
+        answer: "Razor"
     }
 ];
 
@@ -69,10 +69,10 @@ function nextQuestion() {
         displayQuestion();
         document.getElementById("result").innerText = "";
     } else {
-        document.getElementById("guessimage").innerText = `Quiz Completed! Your Score is: ${score}`;
+        document.getElementById("guessimage").innerText = `Quiz Completed! Your Score is: ${score}/5`;
         document.querySelector(".options").style.display = "none";
         document.getElementById("next-btn").style.display = "none";
-        document.getElementById("result").innerHTML = "<a href='fillchar.html'> Proceed to Fill in the Blanks Section </a>";
+        document.getElementById("result").innerText = " "
     }
     document.getElementById("next-btn").disabled = true;
 }
