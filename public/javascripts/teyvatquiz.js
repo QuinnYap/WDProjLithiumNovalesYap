@@ -51,43 +51,50 @@ const questions = [
         answer: "Aranara"
     },
 ];
+/* an array of objects containing the questions, choices, and answers */
 
-let currentQuestionIndex = 0;
-let score = 0;
+let currentQuestionIndex = 0; //track the index of the question
+let score = 0; //initialize score tally
 function displayQuestion() {
     const questionElement = document.getElementById("question");
     const options = document.getElementsByClassName("option");
     const currentQuestion = questions[currentQuestionIndex];
+    //display the question
 
     questionElement.innerText = currentQuestion.question;
     for (let i = 0; i < options.length; i++) {
         options[i].innerText = currentQuestion.choices[i];
         options[i].onclick = function() { checkAnswer(currentQuestion.choices[i]); };
     }
+    //call the function that checks the answer
 }
 function checkAnswer(selectedChoice) {
     const resultElement = document.getElementById("result");
     const currentQuestion = questions[currentQuestionIndex];
+
+    //check if the choice is the correct answer
     if (selectedChoice === currentQuestion.answer) {
         resultElement.innerText = "Correct!";
-        score += 1;
+        score += 1; //add 1 to the score
     } else {
         resultElement.innerText = `Wrong! The correct answer is: ${currentQuestion.answer}`;
     }
-    document.getElementById("next-btn").disabled = false;
+    document.getElementById("next-btn").disabled = false; //allow the user to go to the next question
 }
 
 function nextQuestion() {
-    currentQuestionIndex++;
+    currentQuestionIndex++; //move to the next question
     if (currentQuestionIndex < questions.length) {
-        displayQuestion();
-        document.getElementById("result").innerText = "";
+        displayQuestion(); 
+        document.getElementById("result").innerText = ""; //remove the "correct!" or "wrong!" text
     } else {
-        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}`;
+        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/10`;
         document.querySelector(".options").style.display = "none";
         document.getElementById("next-btn").style.display = "none";
-        document.getElementById("result").innerHTML = "<a href='fillteyv.html'> Proceed to Fill in the Blanks Section </a>";
+        document.getElementById("result").innerHTML = "<a href='fillchar.html'> Proceed to Fill in the Blanks Section </a>";
+        // display score and other information when there are no more questions
     }
-    document.getElementById("next-btn").disabled = true;
+    document.getElementById("next-btn").disabled = true; /*disable the "next" button so the user can't skip any question and
+    must select a choice first */
 }
 displayQuestion();
