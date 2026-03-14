@@ -91,7 +91,6 @@ function nextQuestion() {
         document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/10`;
         document.querySelector(".options").style.display = "none";
         document.getElementById("next-btn").style.display = "none";
-        document.getElementById("result").innerHTML = "<a href='fillchar.html'> Proceed to Fill in the Blanks Section </a>";
         // display score and other information when there are no more questions
     }
     document.getElementById("next-btn").disabled = true; /*disable the "next" button so the user can't skip any question and

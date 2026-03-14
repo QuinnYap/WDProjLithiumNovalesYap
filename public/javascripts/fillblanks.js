@@ -1,70 +1,83 @@
 const link = "https://genshin-impact-map.appsample.com/";
-const testquestions = [
+const questions = [
     {
-        question: "1. Which adeptus did Qiqi find passed out and whom she carried to the Bubu Pharmacy in a short official Genshin trailer?",
-        answer: "XIAO"
+        question: "1. What is the name of the first archon that the Traveler came across?",
+        answer: "VENTI"
     },
     {
-        question: "2. Which character used to be a  shrine maiden at the Grand Narukami Shrine, moved to Liyue to study law and became classmates with Yanfei, then eventually went back to Inazuma?",
-        answer: "KUKI SHINOBU"
+        question: "2. In which region on Teyvat did the first ever Hydro Archon of Fontaine pass away in?",
+        answer: "SUMERU"
     },
     {
-        question: "3. Who is the Inazuman character who Alice, the author of the Teyvat Travel Guide, considered kidnapping because they reminded her of her daughter?",
-        answer: "YOIMIYA"
+        question: "3. Miss Hina, a popular fictional advice columnist for That's Life magazine in Inazuma is the genderbent version of which character in Genshin?",
+        answer: "GOROU"
     },
     {
-        question: "4. Who was the lady who turned down the invite of Hexenzirkel, a coven of powerful witches?",
-        answer: "LISA"
+        question: "4. What is the name of the pyro Abyss Lector that the traveler first encounters in Enkanomiya?",
+        answer: "ENJOU"
     },
     {
-        question: "5. What is Arataki Itto allergic to?",
-        answer: "BEANS"
+        question: "5. What is the name of the Goddess of Flowers who used to rule alongside King Deshret and the Greater Lord Rukkhadevata in Sumeru?",
+        answer: "NABU MALIKATA"
     },
     {
-        question: "6. Who is the dragon companion of the Natlan character, Kinich?",
-        answer: "AJAW"
+        question: "6. What is the true first name of the Eighth of the Fatui Harbingers, the one who is also known as La Signora, the Fair Lady?",
+        answer: "ROSALYNE"
     },
     {
-        question: "7. Who is the consultant of the Wangsheng Funeral Parlor in Liyue?",
-        answer: "ZHONGLI"
+        question: "7. Who is the mysterious former knight captain of the Royal Guard of Khaenri'ah?",
+        answer: "DAINSLEIF"
     },
     {
-        question: "8. Which character's signature dish is macarons?",
-        answer: "NAVIA"
+        question: "8. What type of creature were the original Fontainians?",
+        answer: "OCEANID"
     },
     {
-        question: "9. What do the characters in Genshin Impact call the player?",
-        answer: "TRAVELER"
+        question: "9. There is a massive annual festival that occurs in Liyue Harbor. What is it called?",
+        answer: "LANTERN RITE FESTIVAL"
     },
     {
-        question: "10.  Which playable character said the line, '...ahahahaha. His laugh, not mine'?",
-        answer: "MIKA"
+        question: "10.  What is the name of the master of Tartaglia's master Skirk, who is also known as The Foul, one of the Five Sinners of Khaenri'ah?",
+        answer: "SURTALOGI"
     },
 ];
 
 let currentQuestionIndex = 0;
 let score = 0;
-function displayQuestion() {
-    const questionElement = document.getElementById("question");
-    const options = document.getElementsByClassName("option");
-    const currentQuestion = questions[currentQuestionIndex];
 
+    const questionElement = document.getElementById("question");
+    const answerInput = document.getElementById("answer-input");
+    const submitBtn = document.getElementById("submit-btn");
+    const resultElement = document.getElementById("result");
+    const nextBtn = document.getElementById("next-btn");
+
+function displayQuestion() {
+    const currentQuestion = questions[currentQuestionIndex];
     questionElement.innerText = currentQuestion.question;
-    for (let i = 0; i < options.length; i++) {
+    answerInput.value = "";
+    resultElement.innerText = "";
+    answerInput.disabled = false;
+    submitBtn.disabled = false;
+    nextBtn.disabled = true;
+}
+   
+   /* for (let i = 0; i < options.length; i++) {
         options[i].innerText = currentQuestion.choices[i];
         options[i].onclick = function() { checkAnswer(currentQuestion.choices[i]); };
-    }
-}
-function checkAnswer(selectedChoice) {
-    const resultElement = document.getElementById("result");
+    }*/
+
+function checkAnswer() {
     const currentQuestion = questions[currentQuestionIndex];
-    if (selectedChoice === currentQuestion.answer) {
+    const userAnswer = answerInput.value.trim().toUpperCase();
+    if (userAnswer === currentQuestion.answer) {
         resultElement.innerText = "Correct!";
         score += 1;
     } else {
         resultElement.innerText = `Wrong! The correct answer is: ${currentQuestion.answer}`;
     }
-    document.getElementById("next-btn").disabled = false;
+    answerInput.disabled = true;
+    submitBtn.disabled = true;
+    nextBtn.disabled = false;
 }
 
 function nextQuestion() {
@@ -73,12 +86,15 @@ function nextQuestion() {
         displayQuestion();
         document.getElementById("result").innerText = "";
     } else {
-        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/3`;
-        document.querySelector(".options").style.display = "none";
-        document.getElementById("next-btn").style.display = "none";
-        document.getElementById("typeintheans").style.display = "none";
+        questionElement.innerText = `Quiz Over! Your final score is ${score} out of ${questions.length}.`;
+        answerInput.style.display = "none";
+        document.querySelector("label[for='answer-input']").style.display = "none";
+        submitBtn.style.display = "none";
+        nextBtn.style.display = "none";
+        resultElement.innerText = "";
     }
-    document.getElementById("next-btn").disabled = true;
 }
+
 displayQuestion();
+
 
