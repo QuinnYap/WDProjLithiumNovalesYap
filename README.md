@@ -78,19 +78,15 @@ This webpage will contain links to the credible reference sources to be used for
 
 ## FINAL MODIFICATION PROPOSAL
 <small>note: Create and Read should already be implemented, but since we failed to do so, we'll clarify how exactly we meant to implement it in the final project.</small>
-
 Our plan for implementing full CRUD into the website would be the following:
 
 ### Create
-A localStorage item will be created 
-
+LocalStorage items will be created to store the user score for each quiz (MulCho, FillBlanks, GTC).
 ### Read
-
-
+These items will then be retrieved and shown at the end of each quiz. There will also be a separate webpage for the user to view their most recent score vs. their highest score.
 ### Update
-
 
 ### Delete
 
-#### _Updated wireframe showcasing how UD will be implemented_
+#### _Updated wireframe showcasing how U and D will be implemented_
 <img width="1920" height="1080" alt="Updated quiz results page" src="Assets/Comsci Wireframe/SWP - UD_CRUD.png">
