@@ -17,8 +17,10 @@ LocalStorage items will be created to store the user score for each quiz (MulCho
 These items will then be retrieved and shown at the end of each quiz.
 
 ### Update
+The high score stored in localStorage will be updated and replaced with the new High Score if the user's current score is higher than their previous one.
 
 ### Delete
+The user can choose to permanently delete their saved high score if they press the delete button. A pop up will show up before the user deletes the saved data to ensure no accidental data deletion happens.
 
 #### _Updated wireframe showcasing how U and D will be implemented_
 <img width="1920" height="1080" alt="Updated quiz results page" src="Assets/Comsci Wireframe/SWP - UD_CRUD.png">
