@@ -82,8 +82,10 @@ Our plan for implementing full CRUD into the website would be the following:
 
 ### Create
 LocalStorage items will be created to store the user score for each quiz (MulCho, FillBlanks, GTC).
+
 ### Read
-These items will then be retrieved and shown at the end of each quiz. There will also be a separate webpage for the user to view their most recent score vs. their highest score.
+These items will then be retrieved and shown at the end of each quiz.
+
 ### Update
 
 ### Delete
