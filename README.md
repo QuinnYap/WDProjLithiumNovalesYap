@@ -6,6 +6,23 @@ Note: "Teyvat's Seven" is the main title of the webpage.
 
 ![Logo](./Assets/MilestoneAssets/tseven.png "The Website logo")
 
+## FINAL MODIFICATION PROPOSAL
+<small>note: Create and Read should already be implemented, but since we failed to do so, we'll clarify how exactly we meant to implement it in the final project.</small>
+Our plan for implementing full CRUD into the website would be the following:
+
+### Create
+LocalStorage items will be created to store the user score for each quiz (MulCho, FillBlanks, GTC).
+
+### Read
+These items will then be retrieved and shown at the end of each quiz.
+
+### Update
+
+### Delete
+
+#### _Updated wireframe showcasing how U and D will be implemented_
+<img width="1920" height="1080" alt="Updated quiz results page" src="Assets/Comsci Wireframe/SWP - UD_CRUD.png">
+
 ## Description
 This website is a fan-made collection of pages discussing the lore about the seven nations of Teyvat, the main world in Genshin Impact. This includes important characters and events in the nation, the main element of the nation, a brief overview of the history, and the enemies you can find there as well. There are also fun quizzes you can answer about certain aspects of the lore or of a certain nation, just to tickle your brain, or for die hard Genshin enthusiasts.
 
@@ -75,20 +92,3 @@ Congratulations Screen for all quizzes:
 This webpage will contain links to the credible reference sources to be used for collecting various genshin impact-related information.
 <img width="1920" height="1080" alt="Sources" src="./Assets/Comsci Wireframe/Sources.png" />
 <hr>
-
-## FINAL MODIFICATION PROPOSAL
-<small>note: Create and Read should already be implemented, but since we failed to do so, we'll clarify how exactly we meant to implement it in the final project.</small>
-Our plan for implementing full CRUD into the website would be the following:
-
-### Create
-LocalStorage items will be created to store the user score for each quiz (MulCho, FillBlanks, GTC).
-
-### Read
-These items will then be retrieved and shown at the end of each quiz.
-
-### Update
-
-### Delete
-
-#### _Updated wireframe showcasing how U and D will be implemented_
-<img width="1920" height="1080" alt="Updated quiz results page" src="Assets/Comsci Wireframe/SWP - UD_CRUD.png">
