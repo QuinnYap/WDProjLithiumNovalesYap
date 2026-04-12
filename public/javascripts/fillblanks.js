@@ -105,7 +105,7 @@ function nextQuestion() {
         document.querySelector("label[for='answer-input']").style.display = "none";
         submitBtn.style.display = "none";
         nextBtn.style.display = "none";
-        resultElement.innerText = "";
+        resultElement.innerText = " ";
     }
 }
 
