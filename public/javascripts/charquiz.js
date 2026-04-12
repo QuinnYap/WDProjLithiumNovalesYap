@@ -52,6 +52,13 @@ const questions = [
 ];
 /* an array of objects containing the questions, choices, and answers */
 
+if(localStorage.getItem("hiScoreC")){
+    highScore = localStorage.getItem("hiScoreC");
+}
+else{
+    highScore = 0;
+}
+
 let currentQuestionIndex = 0; //track the index of the question
 let score = 0; //initialize score tally
 function displayQuestion() {
@@ -87,9 +94,17 @@ function nextQuestion() {
         displayQuestion(); 
         document.getElementById("result").innerText = ""; //remove the "correct!" or "wrong!" text
     } else {
-        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/10`;
+        if(score > highScore){
+            localStorage.setItem("hiScoreC", score);
+            highScore = score;
+        }
+        else{
+            localStorage.setItem("hiScoreC", highScore);
+        }
+        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/10; Your High Score is ${highScore}`;
         document.querySelector(".options").style.display = "none";
         document.getElementById("next-btn").style.display = "none";
+        document.getElementById("result").innerText = ""; //remove the "correct!" or "wrong!" text
         // display score and other information when there are no more questions
     }
     document.getElementById("next-btn").disabled = true; /*disable the "next" button so the user can't skip any question and

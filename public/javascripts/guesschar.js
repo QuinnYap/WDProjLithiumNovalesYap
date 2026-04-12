@@ -38,6 +38,13 @@ function blurImg(){
     leImage.style.filter = "blur(15px)";
 } //function to blur the image
 
+if(localStorage.getItem("hiScoreG")){
+    highScore = localStorage.getItem("hiScoreG");
+}
+else{
+    highScore = 0;
+}
+
 let currentCharacter = 0;
 let score = 0;
 function displayQuestion() {
@@ -71,7 +78,14 @@ function nextQuestion() {
         displayQuestion();
         document.getElementById("result").innerText = ""; //remove the "correct!" or "wrong" text
     } else {
-        document.getElementById("guessimage").innerText = `Quiz Completed! Your Score is: ${score}/5`;
+        if(score > highScore){
+            localStorage.setItem("hiScoreG", score);
+            highScore = score;
+        }
+        else{
+            localStorage.setItem("hiScoreG", highScore);
+        }
+        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/5; Your High Score is ${highScore}`;
         document.querySelector(".options").style.display = "none";
         document.getElementById("next-btn").style.display = "none";
         document.getElementById("result").innerText = " "

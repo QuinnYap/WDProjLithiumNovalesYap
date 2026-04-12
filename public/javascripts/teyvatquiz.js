@@ -59,6 +59,7 @@ if(localStorage.getItem("hiScoreT")){
 else{
     highScore = 0;
 }
+
 let currentQuestionIndex = 0; //track the index of the question
 let score = 0; //initialize score tally
 function displayQuestion() {
