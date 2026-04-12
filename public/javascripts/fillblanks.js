@@ -34,7 +34,7 @@ const questions = [
     },
     {
         question: "9. There is a massive annual festival that occurs in Liyue Harbor. What is it called?",
-        answer: "LANTERN RITE FESTIVAL"
+        answer: "LANTERN RITE"
     },
     {
         question: "10.  What is the name of the master of Tartaglia's master Skirk, who is also known as The Foul, one of the Five Sinners of Khaenri'ah?",
