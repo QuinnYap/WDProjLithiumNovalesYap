@@ -37,7 +37,7 @@ const questions = [
     },
     {
         question: "8. The burgeon elemental reaction is the result of which three elements?",
-        choices: ["‌Hydro, Pyro, Dendro", "‌Dendro, Anemo, Pyro", "Electro, Dendro, Hydro", "‌Geo, Hydro, Dendro"],
+        choices: ["Hydro, Pyro, Dendro", "‌Dendro, Anemo, Pyro", "Electro, Dendro, Hydro", "‌Geo, Hydro, Dendro"],
         answer: "Hydro, Pyro, Dendro"
     },
     {
@@ -53,11 +53,11 @@ const questions = [
 ];
 /* an array of objects containing the questions, choices, and answers */
 
-if(localStorage.getItem("hiScore")){
-    let highScore = localStorage.getItem("hiScore");
+if(localStorage.getItem("hiScoreT")){
+    highScore = localStorage.getItem("hiScoreT");
 }
 else{
-    let highScore = 0;
+    highScore = 0;
 }
 let currentQuestionIndex = 0; //track the index of the question
 let score = 0; //initialize score tally
@@ -92,19 +92,20 @@ function nextQuestion() {
     currentQuestionIndex++; //move to the next question
     if (currentQuestionIndex < questions.length) {
         displayQuestion(); 
-        document.getElementById("result").innerText = ""; //remove the "correct!" or "wrong!" text
+        document.getElementById("result").innerHTML = " "; //remove the "correct!" or "wrong!" text
     } else {
         
         if(score > highScore){
-            localStorage.setItem("hiScore", score);
+            localStorage.setItem("hiScoreT", score);
+            highScore = score;
         }
         else{
-            localStorage.setItem("hiScore", highScore);
+            localStorage.setItem("hiScoreT", highScore);
         }
-        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/10`;
+        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/10; Your High Score is ${highScore}`;
         document.querySelector(".options").style.display = "none";
         document.getElementById("next-btn").style.display = "none";
-        
+        document.getElementById("result").innerHTML = " "; //remove the "correct!" or "wrong!" text
         // display score and other information when there are no more questions
     }
     document.getElementById("next-btn").disabled = true; /*disable the "next" button so the user can't skip any question and
