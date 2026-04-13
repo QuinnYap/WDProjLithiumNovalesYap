@@ -66,6 +66,7 @@ header img {
 
 body{
     min-height:fit-content;
+    max-height:max-content;
 }
 
 footer{
@@ -100,9 +101,10 @@ aside p{
     font-size:large;
 }
 .nationDisplays{
+    padding:60px;
     display: flex;
     flex-direction:row;
-    justify-content: space-around;
+    justify-content: center;
     align-items:stretch;
 }
 .nationCrd{
@@ -135,13 +137,13 @@ a{
 .nationCrd p{
     font-size:small;
 }
-    body{
-        min-height:100vh;
-        background-color:#d7e1fb;
-        background-image:url(../Assets/Final\ Proj\ Assets/genshinofficialwebsite.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+body{
+    min-height:fit-content;
+    background-color:#d7e1fb;
+    background-image:url(../Assets/Final\ Proj\ Assets/genshinofficialwebsite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 article.main{
     width:70%;
     text-align:center;
@@ -158,7 +160,6 @@ article.subcontent{
     align-items:center;
 }
 article.everything{
-    min-height:100vh;
     max-height:fit-content;
 }
 div.content{
