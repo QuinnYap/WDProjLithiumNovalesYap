@@ -103,7 +103,8 @@ function nextQuestion() {
         else{
             localStorage.setItem("hiScoreT", highScore);
         }
-        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/10; Your High Score is ${highScore}`;
+        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/10`;
+        document.getElementById("highSc").innerText = `Your High Score is ${highScore}`;
         document.querySelector(".options").style.display = "none";
         document.getElementById("next-btn").style.display = "none";
         document.getElementById("result").innerHTML = " "; //remove the "correct!" or "wrong!" text

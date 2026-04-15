@@ -85,10 +85,11 @@ function nextQuestion() {
         else{
             localStorage.setItem("hiScoreG", highScore);
         }
-        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/5; Your High Score is ${highScore}`;
+        document.getElementById("result").innerText = `Quiz Completed! Your Score is: ${score}/5`;
+        document.getElementById("highSc").innerText = `Your High Score is ${highScore}`;
+        document.getElementById("guessimage").innerHTML = " ";
         document.querySelector(".options").style.display = "none";
         document.getElementById("next-btn").style.display = "none";
-        document.getElementById("result").innerText = " "
         //display score and other info when there are no more characters to guess for
     }
     document.getElementById("next-btn").disabled = true; /* disable the "next" button so the user can't skip any question and

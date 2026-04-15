@@ -100,7 +100,8 @@ function nextQuestion() {
         else{
             localStorage.setItem("hiScoreF", highScore);
         }
-        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/10; Your High Score is ${highScore}`;
+        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/10`;
+        document.getElementById("highSc").innerText = `Your High Score is ${highScore}`
         answerInput.style.display = "none";
         document.querySelector("label[for='answer-input']").style.display = "none";
         submitBtn.style.display = "none";

@@ -101,7 +101,9 @@ function nextQuestion() {
         else{
             localStorage.setItem("hiScoreC", highScore);
         }
-        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/10; Your High Score is ${highScore}`;
+        document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/10`;
+        document.getElementById("highSc").innerText = `Your High Score is ${highScore}`
+        document.getElementById("clearSc").innerText =
         document.querySelector(".options").style.display = "none";
         document.getElementById("next-btn").style.display = "none";
         document.getElementById("result").innerText = ""; //remove the "correct!" or "wrong!" text
