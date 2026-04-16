@@ -457,6 +457,7 @@ p.filltheblanks a{
     height:40rem;
     padding:50px;
 }
+/*
 #deck{
     width: 50vw;
     height: 50vh;
@@ -509,24 +510,39 @@ button {
     padding: 5px;
     margin: 10px auto;
 }
-#deck div:first-child .amber{
+#deck div:first-child .albedo{
     height: 30vh;
     width: 20vw;
 }
-
+#deck div:nth-child(2) .diluc{
+    height: 30vh;
+    width: 20vw;
+}
+#deck:hover div:nth-child(9){
+    transform: rotate(50deg);
+}
+#deck:hover div:nth-child(8){
+    transform: rotate(40deg);
+}
+#deck:hover div:nth-child(7){
+    transform: rotate(30deg);
+}
+#deck:hover div:nth-child(6){
+    transform: rotate(20deg);
+}
 #deck:hover div:nth-child(5){
-    transform: rotate(25deg);
+    transform: rotate(10deg);
 }
 #deck:hover div:nth-child(4){
-    transform: rotate(15deg);
+    transform: rotate(0deg);
 }
 #deck:hover div:nth-child(3){
-    transform: rotate(5deg);
+    transform: rotate(-10deg);
 }
 #deck:hover div:nth-child(2){
-    transform: rotate(-5deg);
+    transform: rotate(-20deg);
 }
 #deck:hover div:nth-child(1){
-    transform: rotate(-15deg);
+    transform: rotate(-30deg);
 }
-
+*/
