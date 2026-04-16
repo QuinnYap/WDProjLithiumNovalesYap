@@ -458,16 +458,14 @@ p.filltheblanks a{
     width: 50vw;
     height: 50vh;
     margin: 0 auto 110px;
-    border: 3px solid black;
     padding: 40px;
     position: relative;
     top: 50px;
-    left: 100px;
+    left: -200px;
 
 }
 #deck div{
     position: absolute;
-    border: 3px solid black;
     height: 30vh;
     width: 20vw;
     background-color: white;
@@ -507,6 +505,10 @@ button {
     width: 25vw;
     padding: 5px;
     margin: 10px auto;
+}
+#deck div:first-child .amber{
+    height: 30vh;
+    width: 20vw;
 }
 
 #deck:hover div:nth-child(5){
