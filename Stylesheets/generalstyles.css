@@ -124,14 +124,17 @@ aside p{
     padding: 10px;
     border-radius: 10px;
 }
-a:hover{
-    color:#BC8CF8;
-}
 a:visited{
     color:#e74c3c;
 }
+
+a:hover{
+    color:#BC8CF8;
+}
+
 a{
     color:red;
+    transition: color 0.3s ease-in-out;
 }
 .nationCrd a{
     font-size:medium;
