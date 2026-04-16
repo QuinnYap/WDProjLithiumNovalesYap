@@ -117,6 +117,7 @@ aside p{
     padding: 14px 25px;
     text-align: center;
     margin:10px;
+    transition: 0.5s ease-in-out;
 }
 .nationCrd p{
     background-color:#131A3C;
@@ -292,6 +293,11 @@ div.image p, div.img p{
     border-radius:10px;
     padding:5px;
 }
+
+.nationCrd:hover{
+    transform: translateY(-10px);
+}
+
 #Mondstadt{
     background-image:url(../Assets/Final\ Proj\ Assets/Mondstadt.png);
     z-index: 1;
@@ -301,11 +307,12 @@ div.image p, div.img p{
     position:inherit;
     width: 150px;
     height: 150px;
-    opacity: 0.5;
-    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
 }
-.nationDisplays .anemo:hover{
+.nationCrd:hover .anemo{
     opacity: 1;
+    filter: drop-shadow(1px 1px 12px rgba(0, 0, 0, 0.534));
 }
 
 #Liyue{
@@ -317,11 +324,12 @@ div.image p, div.img p{
     position:inherit;
     width: 150px;
     height: 150px;
-    opacity: 0.5;
-    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
 }
-.nationDisplays .geo:hover{
+.nationCrd:hover .geo{
     opacity: 1;
+    filter: drop-shadow(1px 1px 12px rgba(0, 0, 0, 0.534));
 }
 #Inazuma{
     background-image:url(../Assets/Final\ Proj\ Assets/Inazuma.png);
@@ -332,11 +340,12 @@ div.image p, div.img p{
     position:inherit;
     width: 150px;
     height: 150px;
-    opacity: 0.5;
-    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
 }
-.nationDisplays .electro:hover{
+.nationCrd:hover .electro{
     opacity: 1;
+    filter: drop-shadow(1px 1px 12px rgba(0, 0, 0, 0.534));
 }
 #Sumeru{
     background-image:url(../Assets/Final\ Proj\ Assets/Sumeru.png);
@@ -347,11 +356,12 @@ div.image p, div.img p{
     position:inherit;
     width: 160px;
     height: 160px;
-    opacity: 0.5;
-    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
 }
-.nationDisplays .dendro:hover{
+.nationCrd:hover .dendro{
     opacity: 1;
+    filter: drop-shadow(1px 1px 12px rgba(0, 0, 0, 0.534));
 }
 #Fontaine{
     background-image:url(../Assets/Final\ Proj\ Assets/Fontaine.png);
@@ -362,11 +372,12 @@ div.image p, div.img p{
     position:inherit;
     width: 150px;
     height: 150px;
-    opacity: 0.5;
-    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
 }
-.nationDisplays .hydro:hover{
+.nationCrd:hover .hydro{
     opacity: 1;
+    filter: drop-shadow(1px 1px 12px rgba(0, 0, 0, 0.534))
 }
 #Natlan{
     background-image:url(../Assets/Final\ Proj\ Assets/Natlan.png);
@@ -377,11 +388,12 @@ div.image p, div.img p{
     position:inherit;
     width: 160px;
     height: 160px;
-    opacity: 0.5;
-    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
 }
-.nationDisplays .pyro:hover{
+.nationCrd:hover .pyro{
     opacity: 1;
+    filter: drop-shadow(1px 1px 12px rgba(0, 0, 0, 0.534));
 }
 #Snezhnaya{
     background-image:url(../Assets/Final\ Proj\ Assets/NodKrai.png);
@@ -392,11 +404,12 @@ div.image p, div.img p{
     position:inherit;
     width: 150px;
     height: 150px;
-    opacity: 0.5;
-    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
 }
-.nationDisplays .cryo:hover{
+.nationCrd:hover .cryo{
     opacity: 1;
+    filter: drop-shadow(1px 1px 12px rgba(0, 0, 0, 0.534))
 }
 a#secret{
     color:red;
