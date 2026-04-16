@@ -304,7 +304,7 @@ div.image p, div.img p{
     opacity: 0.5;
     transition: opacity 0.5s ease-in-out;
 }
-.nationDisplays:hover .anemo{
+.nationDisplays .anemo:hover{
     opacity: 1;
 }
 
@@ -317,6 +317,11 @@ div.image p, div.img p{
     position:inherit;
     width: 150px;
     height: 150px;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
+.nationDisplays .geo:hover{
+    opacity: 1;
 }
 #Inazuma{
     background-image:url(../Assets/Final\ Proj\ Assets/Inazuma.png);
@@ -327,6 +332,11 @@ div.image p, div.img p{
     position:inherit;
     width: 150px;
     height: 150px;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
+.nationDisplays .electro:hover{
+    opacity: 1;
 }
 #Sumeru{
     background-image:url(../Assets/Final\ Proj\ Assets/Sumeru.png);
@@ -337,6 +347,11 @@ div.image p, div.img p{
     position:inherit;
     width: 160px;
     height: 160px;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
+.nationDisplays .dendro:hover{
+    opacity: 1;
 }
 #Fontaine{
     background-image:url(../Assets/Final\ Proj\ Assets/Fontaine.png);
@@ -347,6 +362,11 @@ div.image p, div.img p{
     position:inherit;
     width: 150px;
     height: 150px;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
+.nationDisplays .hydro:hover{
+    opacity: 1;
 }
 #Natlan{
     background-image:url(../Assets/Final\ Proj\ Assets/Natlan.png);
@@ -357,6 +377,11 @@ div.image p, div.img p{
     position:inherit;
     width: 160px;
     height: 160px;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
+.nationDisplays .pyro:hover{
+    opacity: 1;
 }
 #Snezhnaya{
     background-image:url(../Assets/Final\ Proj\ Assets/NodKrai.png);
@@ -367,6 +392,11 @@ div.image p, div.img p{
     position:inherit;
     width: 150px;
     height: 150px;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
+.nationDisplays .cryo:hover{
+    opacity: 1;
 }
 a#secret{
     color:red;
