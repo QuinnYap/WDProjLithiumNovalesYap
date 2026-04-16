@@ -311,7 +311,7 @@ div.image p, div.img p{
     width: 150px;
     height: 150px;
     opacity: 0;
-    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 .nationCrd:hover .anemo{
     opacity: 1;
@@ -328,7 +328,7 @@ div.image p, div.img p{
     width: 150px;
     height: 150px;
     opacity: 0;
-    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 .nationCrd:hover .geo{
     opacity: 1;
@@ -344,7 +344,7 @@ div.image p, div.img p{
     width: 150px;
     height: 150px;
     opacity: 0;
-    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 .nationCrd:hover .electro{
     opacity: 1;
@@ -360,7 +360,7 @@ div.image p, div.img p{
     width: 160px;
     height: 160px;
     opacity: 0;
-    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 .nationCrd:hover .dendro{
     opacity: 1;
@@ -376,7 +376,7 @@ div.image p, div.img p{
     width: 150px;
     height: 150px;
     opacity: 0;
-    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 .nationCrd:hover .hydro{
     opacity: 1;
@@ -392,7 +392,7 @@ div.image p, div.img p{
     width: 160px;
     height: 160px;
     opacity: 0;
-    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 .nationCrd:hover .pyro{
     opacity: 1;
@@ -408,7 +408,7 @@ div.image p, div.img p{
     width: 150px;
     height: 150px;
     opacity: 0;
-    transition: opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 .nationCrd:hover .cryo{
     opacity: 1;
