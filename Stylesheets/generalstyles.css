@@ -457,4 +457,74 @@ p.filltheblanks a{
     height:40rem;
     padding:50px;
 }
-/*below this is the animations portion*/
+#deck{
+    width: 50vw;
+    height: 50vh;
+    margin: 0 auto 110px;
+    border: 3px solid black;
+    padding: 40px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+
+}
+#deck div{
+    position: absolute;
+    border: 3px solid black;
+    height: 30vh;
+    width: 20vw;
+    background-color: white;
+    color: red;
+    font-size: 2em;
+    padding: 5px;
+    font-weight: bold;
+    transition: all 2s;
+    transform-origin: bottom left;
+    top: 50px;
+    left: 200px;
+    
+}
+#deck div:hover{
+    border: 3px solid yellow;
+}
+#deck div:first-child:hover{
+    background-color: yellow;
+}
+#deck div:nth-child(2):hover{
+    background-color: orange;
+}
+#deck div:nth-child(3):hover{
+    background-color: green;
+}
+#deck div:nth-child(4):hover{
+    background-color: blue;
+}
+#deck div:nth-child(5):hover{
+    background-color: violet;
+}
+a {
+    text-decoration: none;
+}
+button {
+    display: block;
+    width: 25vw;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+#deck:hover div:nth-child(5){
+    transform: rotate(25deg);
+}
+#deck:hover div:nth-child(4){
+    transform: rotate(15deg);
+}
+#deck:hover div:nth-child(3){
+    transform: rotate(5deg);
+}
+#deck:hover div:nth-child(2){
+    transform: rotate(-5deg);
+}
+#deck:hover div:nth-child(1){
+    transform: rotate(-15deg);
+}
+
