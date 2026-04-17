@@ -105,6 +105,7 @@ function nextQuestion() {
         }
         document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/10`;
         document.getElementById("highSc").innerText = `Your High Score is ${highScore}`;
+        document.getElementById("clearSc").innerHTML = "<button onclick='deleteRecord()'>Clear Score Record</button></p>";
         document.querySelector(".options").style.display = "none";
         document.getElementById("next-btn").style.display = "none";
         document.getElementById("result").innerHTML = " "; //remove the "correct!" or "wrong!" text
@@ -113,4 +114,14 @@ function nextQuestion() {
     document.getElementById("next-btn").disabled = true; /*disable the "next" button so the user can't skip any question and
     must select a choice first */
 }
+
+function deleteRecord(){
+    let del = localStorage.getItem("hiScoreC");
+    del = 0;
+    localStorage.setItem("hiScoreC", del);
+    document.getElementById("highSc").innerText = `Your High Score is ${del}; Score record cleared`;
+    document.getElementById("clearSc").innerHTML = " ";
+    document.getElementById("question").innerHTML = " ";
+}
+
 displayQuestion();
