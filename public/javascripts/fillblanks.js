@@ -102,12 +102,22 @@ function nextQuestion() {
         }
         document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/10`;
         document.getElementById("highSc").innerText = `Your High Score is ${highScore}`
+        document.getElementById("clearSc").innerHTML = "<button onclick='deleteRecord()'>Clear Score Record</button></p>";
         answerInput.style.display = "none";
         document.querySelector("label[for='answer-input']").style.display = "none";
         submitBtn.style.display = "none";
         nextBtn.style.display = "none";
         resultElement.innerText = " ";
     }
+}
+
+function deleteRecord(){
+    let del = localStorage.getItem("hiScoreC");
+    del = 0;
+    localStorage.setItem("hiScoreC", del);
+    document.getElementById("highSc").innerText = `Your High Score is ${del}; Score record cleared`;
+    document.getElementById("clearSc").innerHTML = " ";
+    document.getElementById("question").innerHTML = " ";
 }
 
 displayQuestion();
