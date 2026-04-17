@@ -519,7 +519,6 @@ button {
 #deck div:first-child .albedo{
     height: 50vh;
     width: 15vw;
-    position:relative;
 }
 #deck div:nth-child(2) .diluc{
     height: 50vh;
@@ -549,7 +548,7 @@ button {
     transform: rotate(50deg);
 }
 #deck:hover div:nth-child(8){
-    transform: rotate(40deg);
+    transform: rotate(-30deg);
 }
 #deck:hover div:nth-child(7){
     transform: rotate(30deg);
@@ -600,4 +599,3 @@ button {
     transform: translateX(500px) translateY(0px);
     transition: all 0.5s ease;
 }
-
