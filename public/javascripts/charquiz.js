@@ -58,6 +58,7 @@ if(localStorage.getItem("hiScoreC")){
 else{
     highScore = 0;
 }
+//check if the high score for the quiz has a value, else, set to 0
 
 let currentQuestionIndex = 0; //track the index of the question
 let score = 0; //initialize score tally
@@ -103,7 +104,7 @@ function nextQuestion() {
         }
         document.getElementById("question").innerText = `Quiz Completed! Your Score is: ${score}/10`;
         document.getElementById("highSc").innerText = `Your High Score is ${highScore}`
-        document.getElementById("clearSc").innerHTML = "<button onclick='deleteRecord()'>Clear Score Record</button></p>";
+        document.getElementById("clearSc").innerHTML = "<button onclick='deleteRecord()'>Clear Score Record</button></p>"; //button to clear score record
         document.querySelector(".options").style.display = "none";
         document.getElementById("next-btn").style.display = "none";
         document.getElementById("result").innerText = " "; //remove the "correct!" or "wrong!" text
@@ -116,8 +117,8 @@ function nextQuestion() {
 function deleteRecord(){
     let del = localStorage.getItem("hiScoreC");
     del = 0;
-    localStorage.setItem("hiScoreC", del);
-    document.getElementById("highSc").innerText = `Your High Score is ${del}; Score record cleared`;
+    localStorage.setItem("hiScoreC", del); //overwrite high score
+    document.getElementById("highSc").innerText = `Your High Score is ${del}; Score record cleared`; //acknowledge clearing of score record, set score to 0
     document.getElementById("clearSc").innerHTML = " ";
     document.getElementById("question").innerHTML = " ";
 }
