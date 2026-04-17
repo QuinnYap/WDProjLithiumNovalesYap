@@ -457,7 +457,7 @@ p.filltheblanks a{
     height:40rem;
     padding:50px;
 }
-/*
+
 #deck{
     width: 50vw;
     height: 50vh;
@@ -470,10 +470,10 @@ p.filltheblanks a{
 }
 #deck div{
     position: absolute;
-    height: 30vh;
-    width: 20vw;
+    height: 50vh;
+    width: 15vw;
     background-color: white;
-    color: red;
+    color: rgb(226, 190, 82);
     font-size: 2em;
     padding: 5px;
     font-weight: bold;
@@ -484,22 +484,28 @@ p.filltheblanks a{
     
 }
 #deck div:hover{
-    border: 3px solid yellow;
+    border: 3px solid rgb(255, 255, 255);
 }
 #deck div:first-child:hover{
-    background-color: yellow;
+    background-color: orange;
 }
 #deck div:nth-child(2):hover{
     background-color: orange;
 }
 #deck div:nth-child(3):hover{
-    background-color: green;
+    background-color: orange;
 }
 #deck div:nth-child(4):hover{
-    background-color: blue;
+    background-color: orange;
 }
 #deck div:nth-child(5):hover{
-    background-color: violet;
+    background-color: orange;
+}
+#deck div:nth-child(6):hover{
+    background-color: orange;
+}
+#deck div:nth-child(7):hover{
+    background-color: orange;
 }
 a {
     text-decoration: none;
@@ -511,12 +517,33 @@ button {
     margin: 10px auto;
 }
 #deck div:first-child .albedo{
-    height: 30vh;
-    width: 20vw;
+    height: 50vh;
+    width: 15vw;
+    position:relative;
 }
 #deck div:nth-child(2) .diluc{
-    height: 30vh;
-    width: 20vw;
+    height: 50vh;
+    width: 15vw;
+}
+#deck div:nth-child(3) .eula{
+    height: 50vh;
+    width: 15vw;
+}
+#deck div:nth-child(4) .jean{
+    height: 50vh;
+    width: 15vw;
+}
+#deck div:nth-child(5) .klee{
+    height: 50vh;
+    width: 15vw;
+}
+#deck div:nth-child(6) .mona{
+    height: 50vh;
+    width: 15vw;
+}
+#deck div:nth-child(7) .venti{
+    height: 50vh;
+    width: 15vw;
 }
 #deck:hover div:nth-child(9){
     transform: rotate(50deg);
@@ -545,4 +572,32 @@ button {
 #deck:hover div:nth-child(1){
     transform: rotate(-30deg);
 }
-*/
+#deck div:first-child:active{
+    transform: translateX(500px) translateY(0px);
+    transition: all 0.5s ease;
+}
+#deck div:nth-child(2):active{
+    transform: translateX(500px) translateY(0px);
+    transition: all 0.5s ease;
+}
+#deck div:nth-child(3):active{
+    transform: translateX(500px) translateY(0px);
+    transition: all 0.5s ease;
+}
+#deck div:nth-child(4):active{
+    transform: translateX(500px) translateY(0px);
+    transition: all 0.5s ease;
+}
+#deck div:nth-child(5):active{
+    transform: translateX(500px) translateY(0px);
+    transition: all 0.5s ease;
+}
+#deck div:nth-child(6):active{
+    transform: translateX(500px) translateY(0px);
+    transition: all 0.5s ease;
+}
+#deck div:nth-child(7):active{
+    transform: translateX(500px) translateY(0px);
+    transition: all 0.5s ease;
+}
+
