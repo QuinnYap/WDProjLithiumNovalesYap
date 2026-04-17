@@ -48,6 +48,7 @@ if(localStorage.getItem("hiScoreF")){
 else{
     highScore = 0;
 }
+//check if the high score for the quiz has a value, else, set to 0
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -114,8 +115,8 @@ function nextQuestion() {
 function deleteRecord(){
     let del = localStorage.getItem("hiScoreC");
     del = 0;
-    localStorage.setItem("hiScoreC", del);
-    document.getElementById("highSc").innerText = `Your High Score is ${del}; Score record cleared`;
+    localStorage.setItem("hiScoreC", del); //overwrite high score
+    document.getElementById("highSc").innerText = `Your High Score is ${del}; Score record cleared`; //acknowledge clearing of score record, set score to 0
     document.getElementById("clearSc").innerHTML = " ";
     document.getElementById("question").innerHTML = " ";
 }
